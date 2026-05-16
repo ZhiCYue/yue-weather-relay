@@ -6,6 +6,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from html.parser import HTMLParser
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -41,18 +42,48 @@ WMO_WEATHER = {
     96: "雷暴伴小冰雹",
     99: "雷暴伴大冰雹",
 }
-RSS_FEEDS = {
-    "国际候选新闻": [
-        ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml"),
-        ("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml"),
-        ("NPR World", "https://feeds.npr.org/1004/rss.xml"),
-    ],
-    "中国候选新闻": [
-        ("China Daily", "https://www.chinadaily.com.cn/rss/china_rss.xml"),
-        ("CGTN China", "https://news.cgtn.com/news/rss/china.xml"),
-        ("CGTN World", "https://news.cgtn.com/news/rss/world.xml"),
-    ],
+NEWS_SECTIONS = {
+    "国际": {
+        "rss": [
+            ("中国新闻网国际", "https://www.chinanews.com.cn/rss/world.xml"),
+            ("人民网国际", "http://www.people.com.cn/rss/world.xml"),
+        ],
+        "html": [
+            ("中国新闻网国际", "https://www.chinanews.com.cn/world/"),
+            ("人民网国际", "https://world.people.com.cn/"),
+        ],
+        "keywords": [],
+    },
+    "中国": {
+        "rss": [
+            ("中国新闻网时政", "https://www.chinanews.com.cn/rss/china.xml"),
+            ("中国新闻网要闻", "https://www.chinanews.com.cn/rss/importnews.xml"),
+            ("人民网时政", "http://www.people.com.cn/rss/politics.xml"),
+        ],
+        "html": [
+            ("中国新闻网时政", "https://www.chinanews.com.cn/china/"),
+            ("人民网时政", "https://politics.people.com.cn/"),
+        ],
+        "keywords": [],
+    },
+    "河南·洛阳": {
+        "rss": [
+            ("中新网河南", "https://www.chinanews.com.cn/rss/china.xml"),
+        ],
+        "html": [
+            ("洛阳网", "https://www.lyd.com.cn/"),
+            ("洛阳网新闻", "https://news.lyd.com.cn/"),
+            ("中新网河南", "https://www.ha.chinanews.com.cn/"),
+        ],
+        "keywords": ["洛阳", "河南"],
+    },
 }
+ALLOWED_NEWS_DOMAINS = (
+    "chinanews.com.cn",
+    "people.com.cn",
+    "lyd.com.cn",
+    "ha.chinanews.com.cn",
+)
 
 
 def beijing_today():
@@ -95,6 +126,37 @@ def fetch_text(url, retries=2):
             last_error = exc
             break
     raise last_error
+
+
+class LinkExtractor(HTMLParser):
+    def __init__(self, base_url):
+        super().__init__()
+        self.base_url = base_url
+        self.links = []
+        self.current_href = None
+        self.current_text = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag != "a":
+            return
+        href = dict(attrs).get("href", "").strip()
+        if not href:
+            return
+        self.current_href = urllib.parse.urljoin(self.base_url, href)
+        self.current_text = []
+
+    def handle_data(self, data):
+        if self.current_href:
+            self.current_text.append(data)
+
+    def handle_endtag(self, tag):
+        if tag != "a" or not self.current_href:
+            return
+        title = "".join(self.current_text).strip()
+        if title:
+            self.links.append((title, self.current_href))
+        self.current_href = None
+        self.current_text = []
 
 
 def wind_direction(degrees):
@@ -174,39 +236,35 @@ def build_weather_context():
     return "\n".join(lines)
 
 
-def fetch_gdelt_articles(query, max_records=14):
-    query_string = urllib.parse.urlencode(
-        {
-            "query": query,
-            "mode": "artlist",
-            "format": "json",
-            "timespan": "24h",
-            "maxrecords": max_records,
-            "sort": "hybrid",
-        }
-    )
-    text = fetch_text(f"https://api.gdeltproject.org/api/v2/doc/doc?{query_string}")
-    data = json.loads(text)
-    articles = []
-    seen = set()
-    for item in data.get("articles", []):
-        title = (item.get("title") or "").strip()
-        url = (item.get("url") or "").strip()
-        if not title or not url or url in seen:
-            continue
-        seen.add(url)
-        articles.append(
-            {
-                "title": title,
-                "url": url,
-                "source": item.get("domain") or item.get("sourceCountry") or "Unknown",
-                "seen": item.get("seendate") or "",
-            }
-        )
-    return articles
+def domain_allowed(url):
+    host = urllib.parse.urlparse(url).netloc.lower()
+    return any(host == domain or host.endswith(f".{domain}") for domain in ALLOWED_NEWS_DOMAINS)
 
 
-def fetch_rss_articles(feeds, max_records=18):
+def article_matches(title, keywords):
+    if not keywords:
+        return True
+    return any(keyword in title for keyword in keywords)
+
+
+def normalize_article(title, url, source, seen="", keywords=None):
+    title = " ".join(title.split())
+    url = url.strip()
+    if len(title) < 6 or not url.startswith(("http://", "https://")):
+        return None
+    if not domain_allowed(url):
+        return None
+    if not article_matches(title, keywords or []):
+        return None
+    return {
+        "title": title,
+        "url": url,
+        "source": source,
+        "seen": seen,
+    }
+
+
+def fetch_rss_articles(feeds, keywords=None, max_records=18):
     articles = []
     seen = set()
     for source, feed_url in feeds:
@@ -226,50 +284,77 @@ def fetch_rss_articles(feeds, max_records=18):
             title = (item.findtext("title") or "").strip()
             url = (item.findtext("link") or "").strip()
             published = (item.findtext("pubDate") or item.findtext("published") or "").strip()
-            if not title or not url or url in seen:
+            article = normalize_article(title, url, source, published, keywords)
+            if not article or article["url"] in seen:
                 continue
-            seen.add(url)
-            articles.append(
-                {
-                    "title": title,
-                    "url": url,
-                    "source": source,
-                    "seen": published,
-                }
-            )
+            seen.add(article["url"])
+            articles.append(article)
             if len(articles) >= max_records:
                 return articles
     return articles
 
 
-def fetch_news_articles(section, gdelt_query, max_records=18):
-    try:
-        articles = fetch_gdelt_articles(gdelt_query, max_records=max_records)
-        if articles:
-            return "GDELT Doc API", articles
-    except Exception as exc:
-        print(f"GDELT fetch failed for {section}: {exc}", file=sys.stderr)
+def fetch_html_articles(feeds, keywords=None, max_records=18):
+    articles = []
+    seen = set()
+    for source, page_url in feeds:
+        try:
+            html_text = fetch_text(page_url, retries=1)
+        except Exception as exc:
+            print(f"HTML fetch failed for {source}: {exc}", file=sys.stderr)
+            continue
 
-    articles = fetch_rss_articles(RSS_FEEDS[section], max_records=max_records)
+        parser = LinkExtractor(page_url)
+        try:
+            parser.feed(html_text)
+        except Exception as exc:
+            print(f"HTML parse failed for {source}: {exc}", file=sys.stderr)
+            continue
+
+        for title, url in parser.links:
+            article = normalize_article(title, url, source, keywords=keywords)
+            if not article or article["url"] in seen:
+                continue
+            seen.add(article["url"])
+            articles.append(article)
+            if len(articles) >= max_records:
+                return articles
+    return articles
+
+
+def fetch_news_articles(section, max_records=18):
+    config = NEWS_SECTIONS[section]
+    keywords = config["keywords"]
+    articles = fetch_rss_articles(config["rss"], keywords=keywords, max_records=max_records)
+    source_parts = []
     if articles:
-        return "RSS feeds", articles
+        source_parts.append("RSS")
 
-    return "unavailable", []
+    if len(articles) < max_records:
+        html_articles = fetch_html_articles(
+            config["html"],
+            keywords=keywords,
+            max_records=max_records - len(articles),
+        )
+        existing_urls = {article["url"] for article in articles}
+        for article in html_articles:
+            if article["url"] not in existing_urls:
+                articles.append(article)
+                existing_urls.add(article["url"])
+        if html_articles:
+            source_parts.append("HTML")
+
+    return "+".join(source_parts) if source_parts else "unavailable", articles[:max_records]
 
 
 def build_news_context():
-    international_source, international = fetch_news_articles(
-        "国际候选新闻",
-        "world OR international OR Ukraine OR Middle East OR Europe OR United States",
-        max_records=18,
-    )
-    china_source, china = fetch_news_articles(
-        "中国候选新闻",
-        "China OR Chinese OR Beijing OR Shanghai",
-        max_records=18,
-    )
-    if not international and not china:
-        raise SystemExit("No news articles fetched from GDELT or RSS fallback feeds.")
+    sections = []
+    for section in NEWS_SECTIONS:
+        source, articles = fetch_news_articles(section, max_records=16)
+        sections.append((section, source, articles))
+
+    if not any(articles for _, _, articles in sections):
+        raise SystemExit("No news articles fetched from mainland Chinese news sources.")
 
     def render(section, articles):
         lines = [section]
@@ -279,12 +364,11 @@ def build_news_context():
             )
         return "\n".join(lines)
 
+    source_line = "；".join(f"{section} {source}" for section, source, _ in sections)
+    rendered_sections = [render(f"{section}候选新闻", articles) for section, _, articles in sections]
     return "\n\n".join(
-        [
-            f"数据源：国际新闻 {international_source}；中国新闻 {china_source}。只能使用下列链接和标题，不得虚构链接。",
-            render("国际候选新闻", international),
-            render("中国候选新闻", china),
-        ]
+        [f"数据源：{source_line}。所有链接必须来自中国大陆通常可访问的中文新闻网站，只能使用下列链接和标题，不得虚构链接。"]
+        + rendered_sections
     )
 
 
@@ -332,32 +416,37 @@ def build_prompt(kind):
         context = build_news_context()
         return f"""
 今天是北京时间 {today} {weekday}。
-请基于下面的候选新闻列表，生成一份中文每日新闻速览，覆盖国际和中国新闻。
+请基于下面的候选新闻列表，生成一份面向中国用户的中文每日新闻速览，覆盖国际、中国、河南·洛阳三类新闻。
 
 {context}
 
-只输出企业微信 markdown 正文，不要代码块，不要解释过程。格式必须类似：
+只输出企业微信 markdown 正文，不要代码块，不要解释过程。版式要清爽，适合微信群机器人阅读。格式必须类似：
 
-# 每日新闻速览
+# 早间新闻速览
 > {today} {weekday}
 
-**国际**
+**🌍 国际**
 - [标题](链接) — 一句话说明。（来源）
 - ...
 
-**中国**
+**🇨🇳 中国**
+- [标题](链接) — 一句话说明。（来源）
+- ...
+
+**📍 河南·洛阳**
 - [标题](链接) — 一句话说明。（来源）
 - ...
 
 ---
-**今日观察**：...
+**一句话观察**：...
 
 要求：
-- 尽量选择最近 24 小时内的重要新闻；如必须使用背景新闻，要明确是背景。
-- 国际新闻 5 条，中国新闻 5 条。
+- 国际新闻 4 条，中国新闻 4 条，河南·洛阳 3 条；如果某类候选不足，可以少写，不要补虚假内容。
 - 每条必须使用候选列表里的真实链接和来源名。
-- 不要编造人物、日期、数字、链接；如果标题信息不足，就只做谨慎概括。
-- 总长度控制在 3600 字节以内，适合企业微信 markdown 机器人。
+- 链接必须来自候选列表，不要使用 BBC、Al Jazeera、NPR、GDELT 等境外或聚合链接。
+- 不要编造人物、日期、数字；如果标题信息不足，就只做谨慎概括。
+- 语言要更贴近中国用户，标题可以轻微改写但不能改变事实。
+- 总长度控制在 3900 字节以内，适合企业微信 markdown 机器人。
 """.strip()
 
     raise SystemExit(f"Unsupported MESSAGE_KIND: {kind}")

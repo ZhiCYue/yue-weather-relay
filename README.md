@@ -15,6 +15,17 @@ GitHub Actions 定时抓取天气/新闻源数据，调用 DeepSeek 生成 `weat
 
 GitHub Actions cron 使用 UTC，workflow 内注释已标出北京时间换算。
 
+## News Sources
+
+新闻生成只使用中国大陆通常可访问的中文来源：
+
+- 中国新闻网
+- 人民网
+- 洛阳网
+- 中新网河南
+
+输出包含 `国际`、`中国`、`河南·洛阳` 三个板块。
+
 ## Optional Variables
 
 - `DEEPSEEK_MODEL`: 默认使用 `deepseek-v4-flash`。

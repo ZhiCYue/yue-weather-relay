@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Resolve content
         env:
-          INPUT_CONTENT: ${{ inputs.content }}
+          INPUT_CONTENT: ${{ github.event.inputs.content }}
         run: |
           if [ -n "$INPUT_CONTENT" ]; then
             printf '%s' "$INPUT_CONTENT" > /tmp/msg.md
@@ -34,11 +34,21 @@ jobs:
         run: |
           python3 - <<'PY'
           import json, os, urllib.request
-          content = open('/tmp/msg.md').read()
-          payload = json.dumps({"msgtype":"markdown","markdown":{"content":content}}).encode()
-          req = urllib.request.Request(os.environ['WEBHOOK'], data=payload,
+
+          webhook = os.environ.get("WEBHOOK", "").strip()
+          if not webhook:
+              raise SystemExit("Missing WECHAT_WEBHOOK_NEWS secret.")
+
+          content = open('/tmp/msg.md', encoding='utf-8').read()
+          if not content.strip():
+              raise SystemExit("Message content is empty.")
+
+          payload = json.dumps({"msgtype":"markdown","markdown":{"content":content}}, ensure_ascii=False).encode("utf-8")
+          req = urllib.request.Request(webhook, data=payload,
                                         headers={"Content-Type":"application/json"})
           resp = urllib.request.urlopen(req, timeout=15).read().decode()
           print(resp)
-          assert '"errcode":0' in resp, f"WeChat error: {resp}"
+          data = json.loads(resp)
+          if data.get("errcode") != 0:
+              raise SystemExit(f"WeChat error: {resp}")
           PY

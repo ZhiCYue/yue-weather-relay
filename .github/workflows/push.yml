@@ -1,40 +1,40 @@
 name: Push to WeChat Work
-  on:
-    workflow_dispatch:
-      inputs:
-        content:
-          description: Markdown content
-          required: true
-          type: string
-    push:
-      paths: [latest.md]
+on:
+  workflow_dispatch:
+    inputs:
+      content:
+        description: Markdown content
+        required: true
+        type: string
+  push:
+    paths: [latest.md]
 
-  jobs:
-    send:
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v4
-        - name: Resolve content
-          id: c
-          env:
-            INPUT_CONTENT: ${{ inputs.content }}
-          run: |
-            if [ -n "$INPUT_CONTENT" ]; then
-              printf '%s' "$INPUT_CONTENT" > /tmp/msg.md
-            else
-              cp latest.md /tmp/msg.md
-            fi
-        - name: Send
-          env:
-            WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
-          run: |
-            python3 - <<'PY'
-            import json, os, urllib.request
-            content = open('/tmp/msg.md').read()
-            payload = json.dumps({"msgtype":"markdown","markdown":{"content":content}}).encode()
-            req = urllib.request.Request(os.environ['WEBHOOK'], data=payload,
-                                          headers={"Content-Type":"application/json"})
-            resp = urllib.request.urlopen(req, timeout=15).read().decode()
-            print(resp)
-            assert '"errcode":0' in resp, f"WeChat error: {resp}"
-            PY
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Resolve content
+        id: c
+        env:
+          INPUT_CONTENT: ${{ inputs.content }}
+        run: |
+          if [ -n "$INPUT_CONTENT" ]; then
+            printf '%s' "$INPUT_CONTENT" > /tmp/msg.md
+          else
+            cp latest.md /tmp/msg.md
+          fi
+      - name: Send
+        env:
+          WEBHOOK: ${{ secrets.WECHAT_WEBHOOK }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          content = open('/tmp/msg.md').read()
+          payload = json.dumps({"msgtype":"markdown","markdown":{"content":content}}).encode()
+          req = urllib.request.Request(os.environ['WEBHOOK'], data=payload,
+                                        headers={"Content-Type":"application/json"})
+          resp = urllib.request.urlopen(req, timeout=15).read().decode()
+          print(resp)
+          assert '"errcode":0' in resp, f"WeChat error: {resp}"
+          PY

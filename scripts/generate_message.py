@@ -1,9 +1,11 @@
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -39,6 +41,18 @@ WMO_WEATHER = {
     96: "雷暴伴小冰雹",
     99: "雷暴伴大冰雹",
 }
+RSS_FEEDS = {
+    "国际候选新闻": [
+        ("BBC World", "https://feeds.bbci.co.uk/news/world/rss.xml"),
+        ("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml"),
+        ("NPR World", "https://feeds.npr.org/1004/rss.xml"),
+    ],
+    "中国候选新闻": [
+        ("China Daily", "https://www.chinadaily.com.cn/rss/china_rss.xml"),
+        ("CGTN China", "https://news.cgtn.com/news/rss/china.xml"),
+        ("CGTN World", "https://news.cgtn.com/news/rss/world.xml"),
+    ],
+}
 
 
 def beijing_today():
@@ -57,6 +71,30 @@ def fetch_json(url, params):
             return json.loads(resp.read().decode("utf-8"))
     except urllib.error.URLError as exc:
         raise SystemExit(f"Failed to fetch {url}: {exc}") from exc
+
+
+def fetch_text(url, retries=2):
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "yue-weather-relay/1.0"},
+    )
+    last_error = None
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return resp.read().decode("utf-8", errors="replace")
+        except urllib.error.HTTPError as exc:
+            last_error = exc
+            if exc.code == 429 and attempt < retries:
+                wait_seconds = 2 ** attempt
+                print(f"Rate limited by {url}; retrying in {wait_seconds}s.", file=sys.stderr)
+                time.sleep(wait_seconds)
+                continue
+            break
+        except urllib.error.URLError as exc:
+            last_error = exc
+            break
+    raise last_error
 
 
 def wind_direction(degrees):
@@ -137,8 +175,7 @@ def build_weather_context():
 
 
 def fetch_gdelt_articles(query, max_records=14):
-    data = fetch_json(
-        "https://api.gdeltproject.org/api/v2/doc/doc",
+    query_string = urllib.parse.urlencode(
         {
             "query": query,
             "mode": "artlist",
@@ -146,8 +183,10 @@ def fetch_gdelt_articles(query, max_records=14):
             "timespan": "24h",
             "maxrecords": max_records,
             "sort": "hybrid",
-        },
+        }
     )
+    text = fetch_text(f"https://api.gdeltproject.org/api/v2/doc/doc?{query_string}")
+    data = json.loads(text)
     articles = []
     seen = set()
     for item in data.get("articles", []):
@@ -167,17 +206,70 @@ def fetch_gdelt_articles(query, max_records=14):
     return articles
 
 
+def fetch_rss_articles(feeds, max_records=18):
+    articles = []
+    seen = set()
+    for source, feed_url in feeds:
+        try:
+            xml_text = fetch_text(feed_url, retries=1)
+        except Exception as exc:
+            print(f"RSS fetch failed for {source}: {exc}", file=sys.stderr)
+            continue
+
+        try:
+            root = ET.fromstring(xml_text)
+        except ET.ParseError as exc:
+            print(f"RSS parse failed for {source}: {exc}", file=sys.stderr)
+            continue
+
+        for item in root.findall(".//item"):
+            title = (item.findtext("title") or "").strip()
+            url = (item.findtext("link") or "").strip()
+            published = (item.findtext("pubDate") or item.findtext("published") or "").strip()
+            if not title or not url or url in seen:
+                continue
+            seen.add(url)
+            articles.append(
+                {
+                    "title": title,
+                    "url": url,
+                    "source": source,
+                    "seen": published,
+                }
+            )
+            if len(articles) >= max_records:
+                return articles
+    return articles
+
+
+def fetch_news_articles(section, gdelt_query, max_records=18):
+    try:
+        articles = fetch_gdelt_articles(gdelt_query, max_records=max_records)
+        if articles:
+            return "GDELT Doc API", articles
+    except Exception as exc:
+        print(f"GDELT fetch failed for {section}: {exc}", file=sys.stderr)
+
+    articles = fetch_rss_articles(RSS_FEEDS[section], max_records=max_records)
+    if articles:
+        return "RSS feeds", articles
+
+    return "unavailable", []
+
+
 def build_news_context():
-    international = fetch_gdelt_articles(
+    international_source, international = fetch_news_articles(
+        "国际候选新闻",
         "world OR international OR Ukraine OR Middle East OR Europe OR United States",
         max_records=18,
     )
-    china = fetch_gdelt_articles(
+    china_source, china = fetch_news_articles(
+        "中国候选新闻",
         "China OR Chinese OR Beijing OR Shanghai",
         max_records=18,
     )
     if not international and not china:
-        raise SystemExit("No news articles fetched from GDELT.")
+        raise SystemExit("No news articles fetched from GDELT or RSS fallback feeds.")
 
     def render(section, articles):
         lines = [section]
@@ -189,7 +281,7 @@ def build_news_context():
 
     return "\n\n".join(
         [
-            "数据源：GDELT Doc API，时间范围：最近 24 小时。只能使用下列链接和标题，不得虚构链接。",
+            f"数据源：国际新闻 {international_source}；中国新闻 {china_source}。只能使用下列链接和标题，不得虚构链接。",
             render("国际候选新闻", international),
             render("中国候选新闻", china),
         ]

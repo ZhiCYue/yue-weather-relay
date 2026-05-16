@@ -1,4 +1,4 @@
-name: Push to WeChat Work
+name: Push Weather to WeChat Work
 on:
   workflow_dispatch:
     inputs:
@@ -6,23 +6,27 @@ on:
         description: Markdown content
         required: true
         type: string
+  schedule:
+    # 07:30 Asia/Shanghai. GitHub cron is evaluated in UTC.
+    - cron: "30 23 * * *"
   push:
-    paths: [latest.md]
+    paths: [weather.md]
 
 jobs:
   send:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
     steps:
       - uses: actions/checkout@v4
       - name: Resolve content
-        id: c
         env:
           INPUT_CONTENT: ${{ inputs.content }}
         run: |
           if [ -n "$INPUT_CONTENT" ]; then
             printf '%s' "$INPUT_CONTENT" > /tmp/msg.md
           else
-            cp latest.md /tmp/msg.md
+            cp weather.md /tmp/msg.md
           fi
       - name: Send
         env:

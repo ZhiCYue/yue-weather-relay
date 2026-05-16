@@ -4,7 +4,7 @@ on:
     inputs:
       content:
         description: Markdown content
-        required: true
+        required: false
         type: string
   schedule:
     # 08:30 Asia/Shanghai. GitHub cron is evaluated in UTC.
@@ -12,43 +12,56 @@ on:
   push:
     paths: [news.md]
 
+permissions:
+  contents: write
+
+concurrency:
+  group: push-news
+  cancel-in-progress: false
+
 jobs:
   send:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
+      MESSAGE_FILE: news.md
     steps:
       - uses: actions/checkout@v4
+      - name: Generate content with AI
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.content == '')
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-5-mini' }}
+          MESSAGE_KIND: news
+          OUTPUT_FILE: news.md
+          MAX_MESSAGE_BYTES: 3900
+        run: python3 scripts/generate_message.py
       - name: Resolve content
         env:
           INPUT_CONTENT: ${{ github.event.inputs.content }}
         run: |
           if [ -n "$INPUT_CONTENT" ]; then
             printf '%s' "$INPUT_CONTENT" > /tmp/msg.md
+            cp /tmp/msg.md "$MESSAGE_FILE"
           else
-            cp news.md /tmp/msg.md
+            cp "$MESSAGE_FILE" /tmp/msg.md
           fi
       - name: Send
         env:
           WEBHOOK: ${{ secrets.WECHAT_WEBHOOK_NEWS }}
+          WEBHOOK_SECRET_NAME: WECHAT_WEBHOOK_NEWS
+          MESSAGE_FILE: /tmp/msg.md
+        run: python3 scripts/send_wechat.py
+      - name: Commit generated content
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: |
-          python3 - <<'PY'
-          import json, os, urllib.request
-
-          webhook = os.environ.get("WEBHOOK", "").strip()
-          if not webhook:
-              raise SystemExit("Missing WECHAT_WEBHOOK_NEWS secret.")
-
-          content = open('/tmp/msg.md', encoding='utf-8').read()
-          if not content.strip():
-              raise SystemExit("Message content is empty.")
-
-          payload = json.dumps({"msgtype":"markdown","markdown":{"content":content}}, ensure_ascii=False).encode("utf-8")
-          req = urllib.request.Request(webhook, data=payload,
-                                        headers={"Content-Type":"application/json"})
-          resp = urllib.request.urlopen(req, timeout=15).read().decode()
-          print(resp)
-          data = json.loads(resp)
-          if data.get("errcode") != 0:
-              raise SystemExit(f"WeChat error: {resp}")
-          PY
+          if git diff --quiet -- "$MESSAGE_FILE"; then
+            echo "No content changes to commit."
+            exit 0
+          fi
+          git config user.name "ai-scheduler"
+          git config user.email "actions@github.com"
+          git add "$MESSAGE_FILE"
+          git commit -m "news: $(date +%F)"
+          git pull --rebase
+          git push

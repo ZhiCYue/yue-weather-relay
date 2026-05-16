@@ -2,13 +2,43 @@ import json
 import os
 import sys
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
 
 WEEKDAYS = "一二三四五六日"
-DEFAULT_MODEL = "gpt-5-mini"
+DEFAULT_BASE_URL = "https://api.deepseek.com"
+DEFAULT_MODEL = "deepseek-v4-flash"
+CITY_COORDS = {
+    "北京": (39.9042, 116.4074),
+    "合肥": (31.8206, 117.2272),
+    "洛阳": (34.6197, 112.4540),
+}
+WMO_WEATHER = {
+    0: "晴",
+    1: "基本晴朗",
+    2: "局部多云",
+    3: "阴",
+    45: "雾",
+    48: "雾凇",
+    51: "小毛毛雨",
+    53: "中等毛毛雨",
+    55: "大毛毛雨",
+    61: "小雨",
+    63: "中雨",
+    65: "大雨",
+    71: "小雪",
+    73: "中雪",
+    75: "大雪",
+    80: "小阵雨",
+    81: "中等阵雨",
+    82: "强阵雨",
+    95: "雷暴",
+    96: "雷暴伴小冰雹",
+    99: "雷暴伴大冰雹",
+}
 
 
 def beijing_today():
@@ -16,13 +46,166 @@ def beijing_today():
     return now.strftime("%Y-%m-%d"), f"星期{WEEKDAYS[now.weekday()]}"
 
 
+def fetch_json(url, params):
+    query = urllib.parse.urlencode(params)
+    req = urllib.request.Request(
+        f"{url}?{query}",
+        headers={"User-Agent": "yue-weather-relay/1.0"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.URLError as exc:
+        raise SystemExit(f"Failed to fetch {url}: {exc}") from exc
+
+
+def wind_direction(degrees):
+    if degrees is None:
+        return "暂无数据"
+    directions = ["北", "东北", "东", "东南", "南", "西南", "西", "西北"]
+    return directions[round(float(degrees) / 45) % 8]
+
+
+def weather_name(code):
+    if code is None:
+        return "暂无数据"
+    return WMO_WEATHER.get(int(code), f"天气代码 {code}")
+
+
+def aqi_level(aqi):
+    if aqi is None:
+        return "暂无可靠数据"
+    aqi = int(round(float(aqi)))
+    if aqi <= 50:
+        level = "优"
+    elif aqi <= 100:
+        level = "良"
+    elif aqi <= 150:
+        level = "轻度污染"
+    elif aqi <= 200:
+        level = "中度污染"
+    elif aqi <= 300:
+        level = "重度污染"
+    else:
+        level = "严重污染"
+    return f"AQI {aqi}（{level}）"
+
+
+def build_weather_context():
+    lines = [
+        "数据源：Open-Meteo Forecast API 与 Open-Meteo Air Quality API。",
+        "注意：该数据源不提供中国气象预警，预警请写“暂无明确预警”。",
+    ]
+    for city, (lat, lon) in CITY_COORDS.items():
+        forecast = fetch_json(
+            "https://api.open-meteo.com/v1/forecast",
+            {
+                "latitude": lat,
+                "longitude": lon,
+                "current": "weather_code,temperature_2m,wind_speed_10m,wind_direction_10m",
+                "daily": "weather_code,temperature_2m_max,temperature_2m_min,wind_speed_10m_max,wind_direction_10m_dominant",
+                "forecast_days": 1,
+                "timezone": "Asia/Shanghai",
+            },
+        )
+        air = fetch_json(
+            "https://air-quality-api.open-meteo.com/v1/air-quality",
+            {
+                "latitude": lat,
+                "longitude": lon,
+                "hourly": "us_aqi",
+                "forecast_days": 1,
+                "timezone": "Asia/Shanghai",
+            },
+        )
+
+        daily = forecast.get("daily", {})
+        hourly = air.get("hourly", {})
+        aqi_values = [value for value in hourly.get("us_aqi", []) if value is not None]
+        avg_aqi = sum(aqi_values) / len(aqi_values) if aqi_values else None
+
+        lines.extend(
+            [
+                f"{city}:",
+                f"- 天气：{weather_name((daily.get('weather_code') or [None])[0])}",
+                f"- 温度：最低 {(daily.get('temperature_2m_min') or ['暂无数据'])[0]}°C / 最高 {(daily.get('temperature_2m_max') or ['暂无数据'])[0]}°C",
+                f"- 风力：{wind_direction((daily.get('wind_direction_10m_dominant') or [None])[0])}风，最大风速 {(daily.get('wind_speed_10m_max') or ['暂无数据'])[0]} km/h",
+                f"- 空气：{aqi_level(avg_aqi)}",
+            ]
+        )
+    return "\n".join(lines)
+
+
+def fetch_gdelt_articles(query, max_records=14):
+    data = fetch_json(
+        "https://api.gdeltproject.org/api/v2/doc/doc",
+        {
+            "query": query,
+            "mode": "artlist",
+            "format": "json",
+            "timespan": "24h",
+            "maxrecords": max_records,
+            "sort": "hybrid",
+        },
+    )
+    articles = []
+    seen = set()
+    for item in data.get("articles", []):
+        title = (item.get("title") or "").strip()
+        url = (item.get("url") or "").strip()
+        if not title or not url or url in seen:
+            continue
+        seen.add(url)
+        articles.append(
+            {
+                "title": title,
+                "url": url,
+                "source": item.get("domain") or item.get("sourceCountry") or "Unknown",
+                "seen": item.get("seendate") or "",
+            }
+        )
+    return articles
+
+
+def build_news_context():
+    international = fetch_gdelt_articles(
+        "world OR international OR Ukraine OR Middle East OR Europe OR United States",
+        max_records=18,
+    )
+    china = fetch_gdelt_articles(
+        "China OR Chinese OR Beijing OR Shanghai",
+        max_records=18,
+    )
+    if not international and not china:
+        raise SystemExit("No news articles fetched from GDELT.")
+
+    def render(section, articles):
+        lines = [section]
+        for article in articles[:12]:
+            lines.append(
+                f"- {article['title']} | {article['url']} | {article['source']} | {article['seen']}"
+            )
+        return "\n".join(lines)
+
+    return "\n\n".join(
+        [
+            "数据源：GDELT Doc API，时间范围：最近 24 小时。只能使用下列链接和标题，不得虚构链接。",
+            render("国际候选新闻", international),
+            render("中国候选新闻", china),
+        ]
+    )
+
+
 def build_prompt(kind):
     today, weekday = beijing_today()
 
     if kind == "weather":
+        context = build_weather_context()
         return f"""
 今天是北京时间 {today} {weekday}。
-请使用联网搜索核对北京、合肥、洛阳今天的天气、温度范围、风力、空气质量和气象预警。
+请基于下面的数据源内容，生成北京、合肥、洛阳今天的天气、温度范围、风力、空气质量和气象预警。
+
+{context}
 
 只输出企业微信 markdown 正文，不要代码块，不要解释过程。格式必须类似：
 
@@ -47,15 +230,19 @@ def build_prompt(kind):
 
 要求：
 - 信息必须以北京时间今天为准。
-- 如果 AQI 或预警没有可靠来源，写“暂无可靠数据”或“暂无明确预警”。
+- 不要添加数据源中没有的信息。
+- 预警统一写“暂无明确预警”，除非数据源明确给出预警。
 - 语言简洁，适合早上推送。
 - 总长度控制在 1200 个中文字以内。
 """.strip()
 
     if kind == "news":
+        context = build_news_context()
         return f"""
 今天是北京时间 {today} {weekday}。
-请使用联网搜索生成一份中文每日新闻速览，覆盖国际和中国新闻。
+请基于下面的候选新闻列表，生成一份中文每日新闻速览，覆盖国际和中国新闻。
+
+{context}
 
 只输出企业微信 markdown 正文，不要代码块，不要解释过程。格式必须类似：
 
@@ -76,8 +263,8 @@ def build_prompt(kind):
 要求：
 - 尽量选择最近 24 小时内的重要新闻；如必须使用背景新闻，要明确是背景。
 - 国际新闻 5 条，中国新闻 5 条。
-- 每条必须有可打开的 markdown 链接和来源名。
-- 不要编造人物、日期、数字、链接。
+- 每条必须使用候选列表里的真实链接和来源名。
+- 不要编造人物、日期、数字、链接；如果标题信息不足，就只做谨慎概括。
 - 总长度控制在 3600 字节以内，适合企业微信 markdown 机器人。
 """.strip()
 
@@ -85,20 +272,11 @@ def build_prompt(kind):
 
 
 def extract_output_text(response):
-    if isinstance(response.get("output_text"), str):
-        return response["output_text"]
-
-    chunks = []
-    for item in response.get("output", []):
-        if not isinstance(item, dict):
-            continue
-        for content in item.get("content", []):
-            if not isinstance(content, dict):
-                continue
-            if content.get("type") in {"output_text", "text"} and isinstance(content.get("text"), str):
-                chunks.append(content["text"])
-
-    return "\n".join(chunks)
+    choices = response.get("choices") or []
+    if not choices:
+        return ""
+    message = choices[0].get("message") or {}
+    return message.get("content") or ""
 
 
 def clean_markdown(text):
@@ -113,13 +291,14 @@ def clean_markdown(text):
     return text
 
 
-def openai_request(payload):
-    api_key = os.environ.get("OPENAI_API_KEY", "").strip()
+def deepseek_request(payload):
+    api_key = os.environ.get("DEEPSEEK_API_KEY", "").strip()
     if not api_key:
-        raise SystemExit("Missing OPENAI_API_KEY secret.")
+        raise SystemExit("Missing DEEPSEEK_API_KEY secret.")
 
+    base_url = os.environ.get("DEEPSEEK_BASE_URL", DEFAULT_BASE_URL).strip().rstrip("/")
     req = urllib.request.Request(
-        "https://api.openai.com/v1/responses",
+        f"{base_url}/chat/completions",
         data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
         headers={
             "Authorization": f"Bearer {api_key}",
@@ -133,30 +312,28 @@ def openai_request(payload):
             return json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as exc:
         body = exc.read().decode("utf-8", errors="replace")
-        raise SystemExit(f"OpenAI API error {exc.code}: {body}") from exc
+        raise SystemExit(f"DeepSeek API error {exc.code}: {body}") from exc
 
 
 def generate(kind, model):
     payload = {
         "model": model,
-        "input": build_prompt(kind),
-        "tools": [
+        "messages": [
             {
-                "type": "web_search",
-                "search_context_size": "medium",
-                "user_location": {
-                    "type": "approximate",
-                    "country": "CN",
-                    "city": "Shanghai",
-                    "timezone": "Asia/Shanghai",
-                },
-            }
+                "role": "system",
+                "content": "你是严谨的中文信息整理助手。只根据用户提供的数据源写企业微信 markdown，不编造事实。",
+            },
+            {"role": "user", "content": build_prompt(kind)},
         ],
+        "stream": False,
+        "temperature": 0.2,
+        "max_tokens": 1800,
+        "thinking": {"type": "disabled"},
     }
-    response = openai_request(payload)
+    response = deepseek_request(payload)
     text = clean_markdown(extract_output_text(response))
     if not text:
-        raise SystemExit(f"OpenAI returned no text: {json.dumps(response, ensure_ascii=False)[:1000]}")
+        raise SystemExit(f"DeepSeek returned no text: {json.dumps(response, ensure_ascii=False)[:1000]}")
     return text
 
 
@@ -166,16 +343,26 @@ def shorten_if_needed(text, model, max_bytes):
 
     payload = {
         "model": model,
-        "input": (
-            f"请把下面的企业微信 markdown 压缩到 {max_bytes} 字节以内。"
-            "保留标题、日期、主要条目和链接，不要代码块，不要解释。\n\n"
-            f"{text}"
-        ),
+        "messages": [
+            {"role": "system", "content": "你只负责压缩企业微信 markdown，不添加新事实。"},
+            {
+                "role": "user",
+                "content": (
+                    f"请把下面的企业微信 markdown 压缩到 {max_bytes} 字节以内。"
+                    "保留标题、日期、主要条目和链接，不要代码块，不要解释。\n\n"
+                    f"{text}"
+                ),
+            },
+        ],
+        "stream": False,
+        "temperature": 0.2,
+        "max_tokens": 1400,
+        "thinking": {"type": "disabled"},
     }
-    response = openai_request(payload)
+    response = deepseek_request(payload)
     shortened = clean_markdown(extract_output_text(response))
     if not shortened:
-        raise SystemExit("OpenAI returned no text while shortening content.")
+        raise SystemExit("DeepSeek returned no text while shortening content.")
     if len(shortened.encode("utf-8")) > max_bytes:
         raise SystemExit(
             f"Generated content is too long: {len(shortened.encode('utf-8'))} bytes > {max_bytes} bytes."
@@ -186,7 +373,7 @@ def shorten_if_needed(text, model, max_bytes):
 def main():
     kind = os.environ.get("MESSAGE_KIND", "").strip()
     output_file = os.environ.get("OUTPUT_FILE", "").strip()
-    model = os.environ.get("OPENAI_MODEL", "").strip() or DEFAULT_MODEL
+    model = os.environ.get("DEEPSEEK_MODEL", "").strip() or DEFAULT_MODEL
     max_bytes = int(os.environ.get("MAX_MESSAGE_BYTES", "3900"))
 
     if not output_file:
@@ -200,7 +387,7 @@ def main():
         handle.write(text.rstrip() + "\n")
 
     byte_count = len(text.encode("utf-8"))
-    print(f"Generated {kind} message with {model}: {byte_count} bytes -> {output_file}")
+    print(f"Generated {kind} message with DeepSeek {model}: {byte_count} bytes -> {output_file}")
 
 
 if __name__ == "__main__":

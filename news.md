@@ -1,58 +1,58 @@
 # 早间新闻
-<font color="comment">10月29日 星期四</font>
+<font color="comment">10月30日 星期五</font>
 
 **国际**
-> [西班牙列车相撞致68人死亡](https://www.chinanews.com.cn/gj/2026/10-29/10722498.shtml)
-> <font color="comment">首相宣布全国哀悼三天，事故原因调查持续进行 · 中新网</font>
-> [伊朗称退出核不扩散条约准备就绪](https://www.chinanews.com.cn/gj/2026/10-29/10722502.shtml)
-> <font color="comment">伊官员表态，地区核问题紧张态势进一步升级 · 中新网</font>
-> [伊朗宣布击落美军MQ-1无人机](https://www.chinanews.com.cn/gj/2026/10-29/10722670.shtml)
-> <font color="comment">伊方公布消息，美伊军事摩擦风险上升 · 中新网</font>
-> [印尼马鲁古省海域发生6.4级地震](https://www.chinanews.com.cn/gj/2026/10-29/10722509.shtml)
-> <font color="comment">突发强震，当地震情及影响尚待进一步核实 · 中新网</font>
-> [日本千叶县东北部发生5.4级地震](https://www.chinanews.com.cn/gj/2026/10-29/10722626.shtml)
-> <font color="comment">东京有明显震感，暂未报告重大损失 · 中新网</font>
-> [日本拟在安保三文件修订中强调拒止力](https://www.chinanews.com.cn/gj/2026/10-29/10722571.shtml)
-> <font color="comment">日方安保政策调整方向引发周边关注 · 中新网</font>
+> [美媒曝乌克兰已暂停袭击俄炼油厂](https://www.chinanews.com.cn/gj/2026/10-30/10723243.shtml)
+> <font color="comment">报道称此举发生在特朗普施压之后，具体影响尚待观察。 · 中新网</font>
+> [普京警告俄欧若开战将无赢家](https://www.chinanews.com.cn/gj/2026/10-30/10723099.shtml)
+> <font color="comment">普京就俄欧关系紧张表态，强调冲突不会有胜利者。 · 中新网</font>
+> [美军中央司令部司令汇报对伊军事选项](https://www.chinanews.com.cn/gj/2026/10-30/10723083.shtml)
+> <font color="comment">美军高层向特朗普汇报针对伊朗的军事方案，局势受关注。 · 中新网</font>
+> [尹锡悦涉内乱案二审被求死刑](https://www.chinanews.com.cn/gj/2026/10-29/10723035.shtml)
+> <font color="comment">韩国前总统尹锡悦内乱案二审中，检方提出死刑求刑。 · 中新网</font>
+> [美国第三季度经济增长3.4%](https://www.chinanews.com.cn/gj/2026/10-30/10723102.shtml)
+> <font color="comment">增速好于市场预期，显示美国经济仍具韧性。 · 中新网</font>
+> [乌克兰基辅遭弹道导弹袭击](https://www.chinanews.com.cn/gj/2026/10-30/10723084.shtml)
+> <font color="comment">基辅遭导弹袭击，当地安全形势进一步紧张。 · 中新网</font>
 
 **国内**
-> [西藏巴青县安置点搭建板房2686间](https://www.chinanews.com.cn/gn/2026/10-29/10722644.shtml)
-> <font color="comment">34处集中安置点建设推进，保障群众过冬居住 · 中新网</font>
-> [新型电网加快建设支撑高质量发展](https://www.chinanews.com.cn/gn/2026/10-29/10722618.shtml)
-> <font color="comment">电网重点工程提速，增强能源保障与消纳能力 · 中新网</font>
-> [海军航空兵开展反潜实战训练](https://www.chinanews.com.cn/gn/2026/10-29/10722620.shtml)
-> <font color="comment">有人与无人协同，织就空中反潜作战网络 · 中新网</font>
-> [气象中国芯攻坚取得进展](https://www.chinanews.com.cn/gn/2026/10-29/10722611.shtml)
-> <font color="comment">自主气象核心技术研发持续推进，提升预报能力 · 中新网</font>
-> [第十二届中华文化论坛在京举行](https://www.chinanews.com.cn/gn/2026/10-29/10722628.shtml)
-> <font color="comment">论坛聚焦中华文化传承与交流，凝聚共识 · 中新网</font>
-> [百余名台胞在重庆寻找抗战足迹](https://www.chinanews.com.cn/gn/2026/10-29/10722612.shtml)
-> <font color="comment">台胞参访抗战遗址，呼吁勿忘共同历史 · 中新网</font>
+> [公安部就行政案件程序规定修订征求意见](https://www.chinanews.com.cn/gn/2026/10-30/10723267.shtml)
+> <font color="comment">公安部公开征求对公安机关办理行政案件程序规定的修订意见。 · 中新网</font>
+> [官方部署坚决清除对党不忠者](https://www.chinanews.com.cn/gn/2026/10-30/10723266.shtml)
+> <font color="comment">官方就《决定》部署表态，强调清除阳奉阴违、以权谋私者。 · 中新网</font>
+> [瑞士联邦主席帕姆兰抵达北京访华](https://www.chinanews.com.cn/gn/2026/10-30/10723223.shtml)
+> <font color="comment">帕姆兰抵达北京开启访华行程，中瑞交流受关注。 · 中新网</font>
+> [气象行业可信数据空间正式启用](https://www.chinanews.com.cn/gn/2026/10-30/10723259.shtml)
+> <font color="comment">该数据空间启用，旨在赋能各行业高质量发展。 · 中新网</font>
+> [长三角船舶联合审图中心在沪成立](https://www.chinanews.com.cn/gn/2026/10-30/10723242.shtml)
+> <font color="comment">全国首个长三角区域船舶联合审图中心在上海成立。 · 中新网</font>
+> [官方部署坚定走中国特色反腐败之路](https://www.chinanews.com.cn/gn/2026/10-30/10723233.shtml)
+> <font color="comment">张福海介绍《决定》从四方面部署反腐败工作。 · 中新网</font>
 
 <!-- message-break -->
 
 # 本地 · 科技
-<font color="comment">10月29日 星期四</font>
+<font color="comment">10月30日 星期五</font>
 
 **河南 · 洛阳**
-> [澳大利亚返还巩义北宋皇陵两件文物](http://www.ha.news.cn/20261029/d9b556b1b5a74eb4aff9e8ae3c3dc71f/c.html)
-> <font color="comment">流失文物回归河南，将入藏相关文博机构 · 新华网河南</font>
-> [首列跨波罗的海中欧班列郑州发车](https://www.ha.chinanews.com.cn/news/khn/2026/1028/71489.shtml)
-> <font color="comment">河南开行新线路班列，拓展欧洲物流通道 · 中新网河南</font>
-> [省十四届人大常委会第92次主任会议召开](http://www.ha.news.cn/20261029/b5913231666c4b97b2d785e0725a541b/c.html)
-> <font color="comment">会议研究部署省人大常委会近期重点工作 · 新华网河南</font>
-> [豫疆历史文化交流基地通过竣工验收](http://henan.people.com.cn/n2/2026/1028/c378397-41735131.html)
-> <font color="comment">项目建成，为豫疆文化交流提供实体平台 · 人民网河南</font>
+> [洛阳小浪底层林尽染黄河秋景入画](https://www.chinanews.com.cn/tp/hd2011/2026/10-30/1209234.shtml)
+> <font color="comment">洛阳小浪底秋色层林尽染，黄河秋景成为当地亮点。 · 中新网河南</font>
+> [河南古树名木保护宣传周在嵩县启动](http://henan.people.com.cn/n2/2026/1029/c378397-41736460.html)
+> <font color="comment">2026年河南省古树名木保护科普宣传周在嵩县启动。 · 人民网河南</font>
+> [河南产业向新动能澎湃](http://henan.people.com.cn/n2/2026/1029/c351638-41735517.html)
+> <font color="comment">河南推动产业向新升级，发展动能持续增强。 · 人民网河南</font>
+> [太行深山旅游公路带火红叶经济](https://www.chinanews.com.cn/sh/2026/10-29/10722566.shtml)
+> <font color="comment">一条旅游公路串联太行深山，带动当地红叶经济发展。 · 中新网河南</font>
 
 **AI 科技**
-> [华为昇腾950DT超节点集群武汉上线](https://www.ithome.com/1/019/419.htm)
-> <font color="comment">全国首个，支撑万亿参数大模型训练与推理 · IT之家</font>
-> [谷歌Gemini 4 Carbon正式发布](https://www.ifanr.com/1686587)
-> <font color="comment">新模型发布，宣称重回全球模型排名第一 · 爱范儿</font>
-> [微软下调2026年资本开支预期](https://www.ithome.com/1/019/405.htm)
-> <font color="comment">部分GPU算力合同延期，开支预期降至1700亿美元 · IT之家</font>
-> [韩国投5万亿韩元普及物理AI](https://www.ithome.com/1/019/421.htm)
-> <font color="comment">政府资金支持中小企业应用物理人工智能 · IT之家</font>
+> [清华等提出具身智能规模化落地新路径](https://www.qbitai.com/2026/10/506662.html)
+> <font color="comment">清华大学联合无问芯穹、智元探索机器人学习同伴的新方法。 · 量子位</font>
+> [国产GPU现场与英伟达同台PK](https://www.qbitai.com/2026/10/506376.html)
+> <font color="comment">国产GPU与英伟达现场对比，展现国产算力进展。 · 量子位</font>
+> [谷歌让AI学会睡觉边用边学](https://www.ithome.com/1/020/044.htm)
+> <font color="comment">谷歌新方法使AI持续学习新知识且不遗忘旧内容。 · IT之家</font>
+> [ChatGPT Pro额度官宣翻倍](https://www.ifanr.com/1686830)
+> <font color="comment">ChatGPT Pro使用额度翻倍，免费重置政策或有调整。 · 爱范儿</font>
 
 **今日观察**
-<font color="comment">西班牙列车事故与伊朗核表态牵动国际，国内基建与科技自主稳步推进。</font>
+<font color="comment">国际局势多点紧张，国内制度与反腐部署推进，AI前沿持续突破。</font>

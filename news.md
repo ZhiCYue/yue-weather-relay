@@ -1,58 +1,58 @@
 # 早间新闻
-<font color="comment">11月1日 星期日</font>
+<font color="comment">11月4日 星期三</font>
 
 **国际**
-> [特朗普称美国在伊朗仍需处理目标](https://www.chinanews.com.cn/gj/2026/11-01/10724256.shtml)
-> <font color="comment">他提到包括镐山核设施在内的一两个目标尚未处理。 · 中新网</font>
-> [俄称从美方获得莫斯科恐袭情报](https://www.chinanews.com.cn/gj/2026/11-01/10724212.shtml)
-> <font color="comment">俄联邦安全局表示相关部门正在处置相关威胁。 · 中新网</font>
-> [朝鲜进行重要武器系统威力评估试验](https://www.chinanews.com.cn/gj/2026/11-01/10724189.shtml)
-> <font color="comment">朝方公布试验消息，未披露具体武器类型与结果。 · 中新网</font>
-> [法国再度爆发全国性抗议示威](https://www.chinanews.com.cn/gj/2026/11-01/10724167.shtml)
-> <font color="comment">示威活动中500多人被捕，社会紧张持续。 · 中新网</font>
-> [二十国集团外长会未达成共识](https://www.chinanews.com.cn/gj/2026/11-01/10724125.shtml)
-> <font color="comment">会议在地缘政治与经济安全议题上分歧明显。 · 中新网</font>
-> [日本修订安保三文件拟挂钩经济](https://www.chinanews.com.cn/gj/2026/10-31/10724080.shtml)
-> <font color="comment">消息人士称日方欲将国防建设与经济增长相联系。 · 中新网</font>
+> [美媒预测民主党夺回参议院控制权](https://www.chinanews.com.cn/gj/2026/11-04/10725898.shtml)
+> <font color="comment">民主党全面掌控国会，中期选举结果对共和党不利。 · 中新网</font>
+> [特朗普祝贺民主党人](https://www.chinanews.com.cn/gj/2026/11-04/10725931.shtml)
+> <font color="comment">在共和党选情遇挫后，特朗普公开向民主党表示祝贺。 · 中新网</font>
+> [欧洲多架客机收到炸弹威胁](https://www.chinanews.com.cn/gj/2026/11-04/10725859.shtml)
+> <font color="comment">安检未发现爆炸物，事件引发航空安全关注。 · 中新网</font>
+> [巴基斯坦反恐行动击毙17名恐怖分子](https://www.chinanews.com.cn/gj/2026/11-04/10725924.shtml)
+> <font color="comment">巴方开展反恐行动，击毙多名恐怖分子。 · 中新网</font>
+> [巴基斯坦试射首枚国产空对空导弹](https://www.chinanews.com.cn/gj/2026/11-04/10725852.shtml)
+> <font color="comment">巴方成功试射国产空对空导弹，推进国防自主。 · 中新网</font>
+> [朝鲜称美国持续发出敌对信号](https://www.chinanews.com.cn/gj/2026/11-04/10725860.shtml)
+> <font color="comment">朝方就美方举动表态，指其持续释放敌对信号。 · 中新网</font>
 
 **国内**
-> [我国计划2030年前实现登月](https://www.chinanews.com.cn/gn/2026/11-01/10724246.shtml)
-> <font color="comment">载人月球探测采用两次发射、环月对接方案。 · 中新网</font>
-> [歼-20系列三型区别与战力进阶](https://www.chinanews.com.cn/gn/2026/11-01/10724258.shtml)
-> <font color="comment">报道梳理歼-20、歼-20A、歼-20S十年发展脉络。 · 中新网</font>
-> [中国海警在台湾岛以东海域巡查](https://www.chinanews.com.cn/gn/2026/10-31/10724111.shtml)
-> <font color="comment">海警依法开展常态化执法巡查行动。 · 中新网</font>
-> [全国海洋减灾典型案例首批发布](https://www.chinanews.com.cn/gn/2026/11-01/10724251.shtml)
-> <font color="comment">自然资源部发布第一批海洋减灾典型案例。 · 中新网</font>
-> [妈祖海洋预报数值模式2.0发布](https://www.chinanews.com.cn/gn/2026/11-01/10724247.shtml)
-> <font color="comment">我国自主研发的该模式新版本正式上线。 · 中新网</font>
-> [习近平特使出席青奥会开幕式](https://www.chinanews.com.cn/gn/2026/11-01/10724184.shtml)
-> <font color="comment">高志丹以主席特使身份出席第四届青奥会开幕式。 · 中新网</font>
+> [郭宁宁任福建省副省长、代省长](https://www.chinanews.com.cn/gn/2026/11-04/10725888.shtml)
+> <font color="comment">福建省人大常委会任命郭宁宁为副省长、代省长。 · 中新网</font>
+> [何立峰在香港金融峰会发表视频致辞](https://www.chinanews.com.cn/gn/2026/11-04/10725904.shtml)
+> <font color="comment">何立峰在国际金融领袖投资峰会上发表视频致辞。 · 中新网</font>
+> [国台办驳民进党当局背叛中山精神](https://www.chinanews.com.cn/gn/2026/11-04/10725923.shtml)
+> <font color="comment">国台办批评民进党当局种种恶行背叛中山精神。 · 中新网</font>
+> [国台办批台退役舰转交菲律宾](https://www.chinanews.com.cn/gn/2026/11-04/10725863.shtml)
+> <font color="comment">国台办指台方对外部势力无底线献媚输诚。 · 中新网</font>
+> [陆委会称无台独问题 国台办回应](https://www.chinanews.com.cn/gn/2026/11-04/10725849.shtml)
+> <font color="comment">国台办就陆委会相关说法作出回应。 · 中新网</font>
+> [论学习贯彻党的二十届五中全会精神](https://www.chinanews.com.cn/gn/2026/11-04/10725819.shtml)
+> <font color="comment">文章强调严密组织体系是党的优势所在力量所在。 · 中新网</font>
 
 <!-- message-break -->
 
 # 本地 · 科技
-<font color="comment">11月1日 星期日</font>
+<font color="comment">11月4日 星期三</font>
 
 **河南 · 洛阳**
-> [一带一路河南国际农博会开幕](https://www.chinanews.com.cn/tp/2026/10-31/10723705.shtml)
-> <font color="comment">第五届展会在河南举行，聚焦国际农业合作。 · 中新网河南</font>
-> [河南深化与东盟粮农合作](https://www.chinanews.com.cn/aseaninfo/2026/10-31/10723736.shtml)
-> <font color="comment">双方在粮食与农业领域推进务实合作项目。 · 中新网河南</font>
-> [河南智慧农机助力精播稳种](http://www.ha.news.cn/20261031/73ee8d32fcf146aa98bed1e4536c813f/c.html)
-> <font color="comment">当地以智慧农机推进精细播种保障丰收。 · 新华网河南</font>
-> [中国教育装备展示会落户郑州](https://www.ha.chinanews.com.cn/news/dfxw/2026/1031/71548.shtml)
-> <font color="comment">第89届展会将在郑州航空港区举办。 · 中新网河南</font>
+> [河南信息通信业十五五规划出炉](https://www.ha.chinanews.com.cn/news/hnxw/2026/1104/71606.shtml)
+> <font color="comment">规划明确河南省信息通信行业未来发展目标。 · 中新网河南</font>
+> [郑州至英国东米德兰兹货运航线开通](https://www.chinanews.com.cn/cj/2026/11-03/10725240.shtml)
+> <font color="comment">郑州新增直飞英国货运航线，拓展国际物流通道。 · 中新网河南</font>
+> [河南三门峡迎来天鹅季](http://www.ha.news.cn/20261104/d1837a507dae401ba24a290138b0e4f5/c.html)
+> <font color="comment">三门峡进入天鹅栖息观赏季，生态景观受关注。 · 新华网河南</font>
+> [郑州如何擦亮现代服务业金字招牌](https://www.chinanews.com.cn/cj/2026/11-03/10725493.shtml)
+> <font color="comment">郑州聚焦现代服务业发展，探索提质升级路径。 · 中新网河南</font>
 
 **AI 科技**
-> [DeepSeek发布全新Agent架构](https://www.ifanr.com/1687026)
-> <font color="comment">新架构让AI能够指挥其他AI协同完成任务。 · 爱范儿</font>
-> [世界模型首次指导设计芯片](https://www.qbitai.com/2026/10/506866.html)
-> <font color="comment">方案配备超大核NPU，算力达700TOPS。 · 量子位</font>
-> [Claude取消五小时使用限制](https://www.qbitai.com/2026/10/506855.html)
-> <font color="comment">首批Ultra用户已解除该限制，使用更灵活。 · 量子位</font>
-> [Grok生成文本将添加隐形水印](https://www.ithome.com/1/020/721.htm)
-> <font color="comment">此举为响应欧盟AI法案的标识要求。 · IT之家</font>
+> [腾讯混元Hy4正式版发布](https://www.ithome.com/1/022/035.htm)
+> <font color="comment">号称首次跻身最强开源模型之列，面向真实生产力。 · IT之家</font>
+> [小米获乌镇峰会双料大奖](https://www.qbitai.com/2026/11/507396.html)
+> <font color="comment">小米集团获杰出贡献奖，具身基座模型获领先科技奖。 · 量子位</font>
+> [苹果警告AI智能体行为难预测](https://www.ithome.com/1/022/137.htm)
+> <font color="comment">苹果称失控的AI智能体恐引发诉讼、损害公司声誉。 · IT之家</font>
+> [GPT-6 Astra爆改Qwen大脑](https://www.ifanr.com/1687285)
+> <font color="comment">仅动0.016%参数，数学成绩大幅提升。 · 爱范儿</font>
 
 **今日观察**
-<font color="comment">国际安全与地缘摩擦升温，中国航天与海洋治理稳步推进，AI架构与芯片设计持续突破。</font>
+<font color="comment">美国中期选举民主党重掌国会，国内人事与对台表态密集，AI开源模型竞争升温。</font>

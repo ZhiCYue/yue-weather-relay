@@ -1,14 +1,14 @@
 # 天气早报
-<font color="comment">11月4日 星期三　北京 · 合肥 · 洛阳</font>
+<font color="comment">11月5日 星期四　北京 · 合肥 · 洛阳</font>
 
-> **北京**　阴　<font color="info">5° ~ 12°</font>
-> 北风 2级　空气 <font color="warning">重度污染 252</font>
+> **北京**　雾　<font color="info">4° ~ 16°</font>
+> 北风 3级　空气 轻度污染 144
 
-> **合肥**　阵雨　<font color="info">14° ~ 19°</font>
-> 西北风 3级　空气 良 69
+> **合肥**　阴　<font color="info">12° ~ 20°</font>
+> 西北风 3级　空气 良 66
 
-> **洛阳**　阵雨　<font color="info">12° ~ 17°</font>
-> 西风 3级　空气 良 67
+> **洛阳**　阴　<font color="info">10° ~ 21°</font>
+> 西风 3级　空气 良 51
 
-**今日提示**　北京重度污染，出行需防护；合肥、洛阳有阵雨，降水概率高，出门带伞并注意路面湿滑。
+**今日提示**　北京有雾且空气轻度污染，出行注意防护，早晚偏凉适当添衣；合肥、洛阳阴天为主，体感舒适，正常穿着即可。
 <font color="comment">数据来源 Open-Meteo · 空气质量按国标 HJ 633 估算</font>

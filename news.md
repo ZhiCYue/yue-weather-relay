@@ -1,58 +1,58 @@
 # 早间新闻
-<font color="comment">11月5日 星期四</font>
+<font color="comment">11月7日 星期六</font>
 
 **国际**
-> [花旗集团办公区突发枪击致2死4伤](https://www.chinanews.com.cn/gj/2026/11-05/10726537.shtml)
-> <font color="comment">事发办公区超3000人，枪击造成人员伤亡 · 中新网</font>
-> [美众议院被曝最早下周弹劾防长](https://www.chinanews.com.cn/gj/2026/11-05/10726541.shtml)
-> <font color="comment">弹劾动议针对防长赫格塞思，时间或在下周 · 中新网</font>
-> [美参院民主党领袖称伊朗战事必须结束](https://www.chinanews.com.cn/gj/2026/11-05/10726505.shtml)
-> <font color="comment">民主党表态将结束伊朗战争，战事走向受关注 · 中新网</font>
-> [也门政府军与胡塞武装交战升级](https://www.chinanews.com.cn/gj/2026/11-05/10726532.shtml)
-> <font color="comment">胡塞武装称遭沙特上百次袭击，冲突持续加剧 · 中新网</font>
-> [德国巴伐利亚州副州长艾旺格去世](https://www.chinanews.com.cn/gj/2026/11-05/10726599.shtml)
-> <font color="comment">德国地方重要官员去世，德媒报道相关消息 · 中新网</font>
-> [印尼三季度经济同比增长5.47%](https://www.chinanews.com.cn/gj/2026/11-05/10726594.shtml)
-> <font color="comment">增速高于市场预期，经济表现好于预估 · 中新网</font>
+> [伊朗称击落一架美国MQ-9无人机](https://www.chinanews.com.cn/gj/2026/11-07/10727758.shtml)
+> <font color="comment">伊方称两枚导弹击中格什姆岛，地区紧张升级 · 中新网</font>
+> [巴拉圭总统遭弹劾 副总统接任](https://www.chinanews.com.cn/gj/2026/11-07/10727796.shtml)
+> <font color="comment">副总统宣誓就职，前总统被软禁引发抗议 · 中新网</font>
+> [特朗普任命新白宫办公厅主任](https://www.chinanews.com.cn/gj/2026/11-07/10727754.shtml)
+> <font color="comment">副总统、国务卿、国防部长等多人公开表态 · 中新网</font>
+> [欧洲多地遭遇炸弹威胁和网络攻击](https://www.chinanews.com.cn/gj/2026/11-07/10727833.shtml)
+> <font color="comment">民用设施安全受关注，多国加强警戒 · 中新网</font>
+> [美国10月非农新增16.5万](https://www.chinanews.com.cn/gj/2026/11-07/10727739.shtml)
+> <font color="comment">失业率为4.1%，就业数据影响市场预期 · 中新网</font>
+> [日本为修订安保三文件投巨额宣传费](https://www.chinanews.com.cn/gj/2026/11-07/10727819.shtml)
+> <font color="comment">日方投入大额经费推动安保政策调整 · 中新网</font>
 
 **国内**
-> [马兴瑞涉嫌受贿被公诉](https://www.chinanews.com.cn/gn/2026/11-05/10726494.shtml)
-> <font color="comment">中共中央政治局原委员马兴瑞涉受贿被依法起诉 · 中新网</font>
-> [第九届进博会开幕式举行](https://www.chinanews.com.cn/gn/2026/11-05/10726425.shtml)
-> <font color="comment">进博会开幕，展会相关活动正式启动 · 中新网</font>
-> [澜湄外长会聚焦新的金色十年](https://www.chinanews.com.cn/gn/2026/11-05/10726558.shtml)
-> <font color="comment">各方深化务实行动，推动澜湄合作走深走实 · 中新网</font>
-> [反跨境腐败法草案引发热议](https://www.chinanews.com.cn/gn/2026/11-05/10726496.shtml)
-> <font color="comment">草案为全球反跨境腐败贡献中国智慧 · 中新网</font>
-> [养老服务师职业资格考试办法印发](https://www.chinanews.com.cn/gn/2026/11-05/10726391.shtml)
-> <font color="comment">两部门联合印发初级、中级考试实施办法 · 中新网</font>
-> [军队文职人员公开招考今起报名](https://www.chinanews.com.cn/gn/2026/11-05/10726347.shtml)
-> <font color="comment">招考报名启动，考生需注意相关事项 · 中新网</font>
+> [中共中央部署二十一大代表选举](https://www.chinanews.com.cn/gn/2026/11-07/10727781.shtml)
+> <font color="comment">中央发出通知，对代表选举工作作出安排 · 中新网</font>
+> [何立峰与美财长、贸易代表视频通话](https://www.chinanews.com.cn/gn/2026/11-07/10727818.shtml)
+> <font color="comment">双方就经贸议题沟通，涉及双边关系 · 中新网</font>
+> [商务部回应美国制裁两家中国企业](https://www.chinanews.com.cn/gn/2026/11-07/10727814.shtml)
+> <font color="comment">中方就美方制裁表明立场并提出交涉 · 中新网</font>
+> [一箭四星 谷神星二号复飞成功](https://www.chinanews.com.cn/gn/2026/11-07/10727811.shtml)
+> <font color="comment">火箭复飞任务将四颗卫星送入预定轨道 · 中新网</font>
+> [中国空间站将迎来首位外籍航天员](https://www.chinanews.com.cn/gn/2026/11-07/10727783.shtml)
+> <font color="comment">中国载人航天国际合作迈出重要一步 · 中新网</font>
+> [交通运输部启动低温雨雪三级响应](https://www.chinanews.com.cn/gn/2026/11-07/10727864.shtml)
+> <font color="comment">针对冰冻天气部署交通保通保畅工作 · 中新网</font>
 
 <!-- message-break -->
 
 # 本地 · 科技
-<font color="comment">11月5日 星期四</font>
+<font color="comment">11月7日 星期六</font>
 
 **河南 · 洛阳**
-> [河南深化综治中心规范化建设](http://www.ha.news.cn/20261105/1650db13addc418cbda1ae26c7540cac/c.html)
-> <font color="comment">夯实更高水平平安河南建设根基 · 新华网河南</font>
-> [贾湖遗址水稻开镰](https://www.ha.chinanews.com.cn/news/hnjk/2026/1104/71614.shtml)
-> <font color="comment">赓续9000年稻作文明，遗址水稻迎来收割 · 中新网河南</font>
-> [河南三门峡迎来天鹅季](http://www.ha.news.cn/20261104/d1837a507dae401ba24a290138b0e4f5/c.html)
-> <font color="comment">三门峡进入天鹅观赏季，生态景观受关注 · 新华网河南</font>
-> [算法下田耕新中原](https://www.ha.chinanews.com.cn/news/hnxw/2026/1105/71620.shtml)
-> <font color="comment">数字技术进入田间，助力中原农业耕作 · 中新网河南</font>
+> [焦济洛平高铁首榀箱梁成功架设](http://www.ha.news.cn/20261106/13aea84214b34d1fb48fcea3b7cd907f/c.html)
+> <font color="comment">十标项目进入架梁阶段，建设提速 · 新华网河南</font>
+> [中央宣讲团在河南宣讲五中全会精神](https://www.chinanews.com.cn/gn/2026/11-07/10727748.shtml)
+> <font color="comment">宣讲团深入河南各地解读全会精神 · 中新网河南</font>
+> [河南省网络文明大会在商丘举行](http://www.ha.news.cn/20261107/c8c576e442724318a9031ac519fdbaca/c.html)
+> <font color="comment">大会聚焦网络文明建设，推动多方参与 · 新华网河南</font>
+> [河南15万亩虞城荠菜进入收获季](https://www.chinanews.com.cn/tp/2026/11-06/10727293.shtml)
+> <font color="comment">当地荠菜集中采收，带动农户增收 · 中新网河南</font>
 
 **AI 科技**
-> [OpenAI宣布收购Pierre](https://www.ithome.com/1/022/758.htm)
-> <font color="comment">扩充Codex代码编写、理解与审查工具 · IT之家</font>
-> [英伟达发布CUDA Toolkit 13.5](https://www.ithome.com/1/022/670.htm)
-> <font color="comment">正式支持Vera Rubin，升级多GPU通信 · IT之家</font>
-> [Linux内核被挖出948个漏洞](https://www.qbitai.com/2026/11/507697.html)
-> <font color="comment">OpenAI投入120万美元发现这些漏洞 · 量子位</font>
-> [OpenAI总裁称明年具备上市条件](https://www.ithome.com/1/022/734.htm)
-> <font color="comment">公司大部分营收来自企业客户 · IT之家</font>
+> [A三大内部模型曝光](https://www.qbitai.com/2026/11/508184.html)
+> <font color="comment">据称领先Opus5.5三个月，实验时间缩短八成 · 量子位</font>
+> [马斯克称Optimus考虑只租不卖](https://www.ithome.com/1/023/675.htm)
+> <font color="comment">称生产力为人类5倍，初期造价约3万美元 · IT之家</font>
+> [DeepSeek带火稀疏计算](https://www.qbitai.com/2026/11/508155.html)
+> <font color="comment">国产芯片公司加速突围，一家再融近10亿 · 量子位</font>
+> [苹果iOS 27.2新增隐形水印](https://www.ithome.com/1/023/663.htm)
+> <font color="comment">AI生图与修图均可溯源，肉眼不可见 · IT之家</font>
 
 **今日观察**
-<font color="comment">国际政坛动荡与冲突交织，国内反腐和进博会受关注，AI领域收购与算力升级活跃。</font>
+<font color="comment">国际安全与政局波动频现，国内聚焦航天与经贸，AI算力竞争持续升温。</font>

@@ -1,58 +1,58 @@
 # 早间新闻
-<font color="comment">11月9日 星期一</font>
+<font color="comment">11月10日 星期二</font>
 
 **国际**
-> [印度中央邦排灯节两起火灾致12死](https://www.chinanews.com.cn/gj/2026/11-09/10728800.shtml)
-> <font color="comment">节日期间连续发生火灾，造成多人伤亡 · 中新网</font>
-> [菲律宾第三季度经济增速放缓至2.1%](https://www.chinanews.com.cn/gj/2026/11-09/10728762.shtml)
-> <font color="comment">增速较此前明显回落，经济承压 · 中新网</font>
-> [日本茨城县近海5.9级地震 东京有震感](https://www.chinanews.com.cn/gj/2026/11-09/10728739.shtml)
-> <font color="comment">震感波及首都圈，暂无重大损失报告 · 中新网</font>
-> [伊拉克北部库区天然气田遭袭停产](https://www.chinanews.com.cn/gj/2026/11-09/10728710.shtml)
-> <font color="comment">袭击导致生产暂停，来源尚不明确 · 中新网</font>
-> [日本各界反对高市政府打造战争国家](https://www.chinanews.com.cn/gj/2026/11-09/10728730.shtml)
-> <font color="comment">多方持续发声，批评安保政策转向 · 中新网</font>
-> [COP31前瞻：1.5℃难保 双主席并行](https://www.chinanews.com.cn/gj/2026/11-09/10728708.shtml)
-> <font color="comment">气候大会聚焦落实，面临多重难题 · 中新网</font>
+> [奥运冠军宣布竞选法国总统](https://www.chinanews.com.cn/gj/2026/11-10/10729418.shtml)
+> <font color="comment">马克龙对此公开表态表示欢迎，法国选情受关注。 · 中新网</font>
+> [伊朗最高领袖指示调整对美状态](https://www.chinanews.com.cn/gj/2026/11-10/10729387.shtml)
+> <font color="comment">要求结束与美国长期不战不和的僵持局面。 · 中新网</font>
+> [日本男子强闯中国驻日使馆案开审](https://www.chinanews.com.cn/gj/2026/11-10/10729390.shtml)
+> <font color="comment">检方以持刀闯入为由求刑一年六个月。 · 中新网</font>
+> [菲律宾一飞机坠毁载有6名外国人](https://www.chinanews.com.cn/gj/2026/11-10/10729382.shtml)
+> <font color="comment">事故突发，机上外国公民情况引发关注。 · 中新网</font>
+> [美共和党众议员再对防长发起弹劾](https://www.chinanews.com.cn/gj/2026/11-10/10729358.shtml)
+> <font color="comment">赫格塞思再度面临共和党内弹劾动议。 · 中新网</font>
+> [联合国气候变化安塔利亚大会开幕](https://www.chinanews.com.cn/gj/2026/11-10/10729350.shtml)
+> <font color="comment">会议聚焦气候融资与能源转型等核心议题。 · 中新网</font>
 
 **国内**
-> [中国海警在钓鱼岛领海维权巡航](https://www.chinanews.com.cn/gn/2026/11-09/10728742.shtml)
-> <font color="comment">舰艇编队11月9日在我钓鱼岛领海内巡航 · 中新网</font>
-> [习近平致电祝贺约托娃当选保加利亚总统](https://www.chinanews.com.cn/gn/2026/11-09/10728775.shtml)
-> <font color="comment">中方领导人就选举结果致贺电 · 中新网</font>
-> [交通运输部继续暂停对美船舶收特别港务费](https://www.chinanews.com.cn/gn/2026/11-09/10728720.shtml)
-> <font color="comment">相关收费措施延续暂停，涉及对美航运 · 中新网</font>
-> [中国成功发射卫星互联网低轨29组卫星](https://www.chinanews.com.cn/gn/2026/11-09/10728684.shtml)
-> <font color="comment">低轨星座组网建设再获推进 · 中新网</font>
-> [全国收购秋粮超1亿吨](https://www.chinanews.com.cn/gn/2026/11-09/10728683.shtml)
-> <font color="comment">秋粮收购进度加快，保障粮食市场稳定 · 中新网</font>
-> [王小洪在云南调研强调政策针对性有效性](https://www.chinanews.com.cn/gn/2026/11-09/10728609.shtml)
-> <font color="comment">要求因地制宜推动高质量发展 · 中新网</font>
+> [旅美大熊猫平平福双与公众见面](https://www.chinanews.com.cn/gn/2026/11-10/10729443.shtml)
+> <font color="comment">外交部就两只大熊猫公开亮相作出回应。 · 中新网</font>
+> [中美就元首年内互动保持沟通](https://www.chinanews.com.cn/gn/2026/11-10/10729445.shtml)
+> <font color="comment">外交部确认双方正就互动安排进行沟通。 · 中新网</font>
+> [四部门部署创新药安全合理使用](https://www.chinanews.com.cn/gn/2026/11-10/10729375.shtml)
+> <font color="comment">要求进一步做好创新药配备与使用工作。 · 中新网</font>
+> [中美两军移交驼峰航线美军遗骸](https://www.chinanews.com.cn/gn/2026/11-10/10729337.shtml)
+> <font color="comment">仪式移交援华抗日美军飞行员遗骸。 · 中新网</font>
+> [前十月两岸进出口贸易额增32%](https://www.chinanews.com.cn/gn/2026/11-10/10729335.shtml)
+> <font color="comment">两岸贸易保持较快增长，增幅达三成以上。 · 中新网</font>
+> [铁路电子发票新增代开票功能](https://www.chinanews.com.cn/gn/2026/11-10/10729258.shtml)
+> <font color="comment">购票人可为乘车人开具电子发票。 · 中新网</font>
 
 <!-- message-break -->
 
 # 本地 · 科技
-<font color="comment">11月9日 星期一</font>
+<font color="comment">11月10日 星期二</font>
 
 **河南 · 洛阳**
-> [冲刺四季度 河南重点项目加速推进](http://www.ha.news.cn/20261108/a3ca4b33ccd549b3ae7b97ad1f88ee21/c.html)
-> <font color="comment">全省重点项目进入年末攻坚阶段 · 新华网河南</font>
-> [河南新一轮国企改革怎么看怎么干](http://www.ha.news.cn/20261109/0e5e9ff9d69c4bd3a73164dae0478c40/c.html)
-> <font color="comment">聚焦改革路径与实施重点 · 新华网河南</font>
-> [中外专家河南新乡共话粮食安全](https://www.chinanews.com.cn/sh/shipin/cns/2026/11-08/news1074259.shtml)
-> <font color="comment">种业创新牵手国际合作，聚焦粮食安全 · 中新网河南</font>
-> [河南传承红色基因绘就振兴新画卷](https://www.chinanews.com.cn/gn/2026/11-09/10728700.shtml)
-> <font color="comment">赓续长征精神，推进乡村振兴 · 中新网河南</font>
+> [河南出台方案促汽车全链条消费](http://www.ha.news.cn/20261110/14ef09be585d42948738eefb74cdfee6/c.html)
+> <font color="comment">行动方案覆盖汽车消费各环节以激发需求。 · 新华网河南</font>
+> [王陆进主持省政府常务会议](http://www.ha.news.cn/20261110/2b94e2ea532c43e4aab48658be84a1b8/c.html)
+> <font color="comment">会议研究部署省政府相关重点工作。 · 新华网河南</font>
+> [河南启动医疗器械质量首次飞检](http://www.ha.news.cn/20261110/afd9eef3ccbd46ff8269b519f4a4f4df/c.html)
+> <font color="comment">新规实施后开展首次飞行检查。 · 新华网河南</font>
+> [河南紧盯具身智能赛道](http://henan.people.com.cn/n2/2026/1110/c351638-41746152.html)
+> <font color="comment">河南布局具身智能产业，寻求新增长点。 · 人民网河南</font>
 
 **AI 科技**
-> [纳德拉畅想2000万AI智能体协同办公](https://www.ithome.com/1/024/243.htm)
-> <font color="comment">微软CEO描绘智能体与员工协作前景 · IT之家</font>
-> [英伟达在韩办AI Day 多方排队合作](https://www.ithome.com/1/024/217.htm)
-> <font color="comment">韩国政府与三星、LG、现代等参与合作 · IT之家</font>
-> [资本正在撤离世界模型](https://www.qbitai.com/2026/11/508466.html)
-> <font color="comment">世界模型赛道投资热度出现降温 · 量子位</font>
-> [日本独角兽Sakana AI开发首款移动App](https://www.ithome.com/1/024/216.htm)
-> <font color="comment">该公司正推进首个手机应用产品 · IT之家</font>
+> [腾讯混元跻身最强开源模型](https://www.qbitai.com/2026/11/507843.html)
+> <font color="comment">实测Hy4搭配WorkBuddy展现多模态Agent能力。 · 量子位</font>
+> [Claude Fable 5.2登顶世界第一](https://www.ifanr.com/1688605)
+> <font color="comment">新版本发布即超越Opus 5.5位居榜首。 · 爱范儿</font>
+> [澳大利亚拟强制AI公司上报违规](https://www.ithome.com/1/024/843.htm)
+> <font color="comment">并考虑修订刑事法律以强化AI安全监管。 · IT之家</font>
+> [小米北大发布物联网模型白皮书](https://www.ithome.com/1/024/842.htm)
+> <font color="comment">向全行业开放11.6亿台AIoT设备技术经验。 · IT之家</font>
 
 **今日观察**
-<font color="comment">国际地震与冲突风险交织，国内聚焦海警维权、粮食收购与科技组网，河南冲刺四季度，AI智能体与算力合作成焦点。</font>
+<font color="comment">国际局势与中美互动交织，AI模型竞争与监管同步升温。</font>

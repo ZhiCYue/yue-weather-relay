@@ -1,58 +1,58 @@
 # 早间新闻
-<font color="comment">11月10日 星期二</font>
+<font color="comment">11月12日 星期四</font>
 
 **国际**
-> [奥运冠军宣布竞选法国总统](https://www.chinanews.com.cn/gj/2026/11-10/10729418.shtml)
-> <font color="comment">马克龙对此公开表态表示欢迎，法国选情受关注。 · 中新网</font>
-> [伊朗最高领袖指示调整对美状态](https://www.chinanews.com.cn/gj/2026/11-10/10729387.shtml)
-> <font color="comment">要求结束与美国长期不战不和的僵持局面。 · 中新网</font>
-> [日本男子强闯中国驻日使馆案开审](https://www.chinanews.com.cn/gj/2026/11-10/10729390.shtml)
-> <font color="comment">检方以持刀闯入为由求刑一年六个月。 · 中新网</font>
-> [菲律宾一飞机坠毁载有6名外国人](https://www.chinanews.com.cn/gj/2026/11-10/10729382.shtml)
-> <font color="comment">事故突发，机上外国公民情况引发关注。 · 中新网</font>
-> [美共和党众议员再对防长发起弹劾](https://www.chinanews.com.cn/gj/2026/11-10/10729358.shtml)
-> <font color="comment">赫格塞思再度面临共和党内弹劾动议。 · 中新网</font>
-> [联合国气候变化安塔利亚大会开幕](https://www.chinanews.com.cn/gj/2026/11-10/10729350.shtml)
-> <font color="comment">会议聚焦气候融资与能源转型等核心议题。 · 中新网</font>
+> [日本被曝拟松动无核三原则](https://www.chinanews.com.cn/gj/2026/11-12/10730803.shtml)
+> <font color="comment">日本民众抗议，称决不允许相关调整推进 · 中新网</font>
+> [俄军官在圣彼得堡汽车爆炸中丧生](https://www.chinanews.com.cn/gj/2026/11-12/10730799.shtml)
+> <font color="comment">俄媒报道爆炸事件致一名军官死亡 · 中新网</font>
+> [纽约一建筑发生坍塌致2死17伤](https://www.chinanews.com.cn/gj/2026/11-12/10730741.shtml)
+> <font color="comment">突发事故造成多人伤亡，救援随即展开 · 中新网</font>
+> [美国或失去麻疹消除国地位](https://www.chinanews.com.cn/gj/2026/11-12/10730747.shtml)
+> <font color="comment">累计报告数千麻疹病例，防疫形势承压 · 中新网</font>
+> [胡塞武装称袭击利雅得机场等目标](https://www.chinanews.com.cn/gj/2026/11-12/10730701.shtml)
+> <font color="comment">也门胡塞武装宣称对沙特多处目标发动袭击 · 中新网</font>
+> [俄外交部要求日本放弃再军事化](https://www.chinanews.com.cn/gj/2026/11-12/10730695.shtml)
+> <font color="comment">俄方就日本安全政策调整公开表态 · 中新网</font>
 
 **国内**
-> [旅美大熊猫平平福双与公众见面](https://www.chinanews.com.cn/gn/2026/11-10/10729443.shtml)
-> <font color="comment">外交部就两只大熊猫公开亮相作出回应。 · 中新网</font>
-> [中美就元首年内互动保持沟通](https://www.chinanews.com.cn/gn/2026/11-10/10729445.shtml)
-> <font color="comment">外交部确认双方正就互动安排进行沟通。 · 中新网</font>
-> [四部门部署创新药安全合理使用](https://www.chinanews.com.cn/gn/2026/11-10/10729375.shtml)
-> <font color="comment">要求进一步做好创新药配备与使用工作。 · 中新网</font>
-> [中美两军移交驼峰航线美军遗骸](https://www.chinanews.com.cn/gn/2026/11-10/10729337.shtml)
-> <font color="comment">仪式移交援华抗日美军飞行员遗骸。 · 中新网</font>
-> [前十月两岸进出口贸易额增32%](https://www.chinanews.com.cn/gn/2026/11-10/10729335.shtml)
-> <font color="comment">两岸贸易保持较快增长，增幅达三成以上。 · 中新网</font>
-> [铁路电子发票新增代开票功能](https://www.chinanews.com.cn/gn/2026/11-10/10729258.shtml)
-> <font color="comment">购票人可为乘车人开具电子发票。 · 中新网</font>
+> [纪念孙中山诞辰160周年大会举行](https://www.chinanews.com.cn/gn/2026/11-12/10730743.shtml)
+> <font color="comment">习近平出席大会并发表重要讲话 · 中新网</font>
+> [韩国外长赵显将访华](https://www.chinanews.com.cn/gn/2026/11-12/10730813.shtml)
+> <font color="comment">中韩外长交往安排公布，引发关注 · 中新网</font>
+> [2026中美政党对话举行](https://www.chinanews.com.cn/gn/2026/11-12/10730765.shtml)
+> <font color="comment">双方就共同关心议题开展交流 · 中新网</font>
+> [中国与APEC从上海到深圳双向奔赴](https://www.chinanews.com.cn/gn/2026/11-12/10730810.shtml)
+> <font color="comment">深圳APEC筹备推进，合作议题受关注 · 中新网</font>
+> [江西省人大常委会原委员郭兵被开除党籍](https://www.chinanews.com.cn/gn/2026/11-12/10730792.shtml)
+> <font color="comment">官方通报对其作出党纪处分 · 中新网</font>
+> [华润集团原副总经理韩嵩被公诉](https://www.chinanews.com.cn/gn/2026/11-12/10730730.shtml)
+> <font color="comment">涉案人员已被依法提起公诉 · 中新网</font>
 
 <!-- message-break -->
 
 # 本地 · 科技
-<font color="comment">11月10日 星期二</font>
+<font color="comment">11月12日 星期四</font>
 
 **河南 · 洛阳**
-> [河南出台方案促汽车全链条消费](http://www.ha.news.cn/20261110/14ef09be585d42948738eefb74cdfee6/c.html)
-> <font color="comment">行动方案覆盖汽车消费各环节以激发需求。 · 新华网河南</font>
-> [王陆进主持省政府常务会议](http://www.ha.news.cn/20261110/2b94e2ea532c43e4aab48658be84a1b8/c.html)
-> <font color="comment">会议研究部署省政府相关重点工作。 · 新华网河南</font>
-> [河南启动医疗器械质量首次飞检](http://www.ha.news.cn/20261110/afd9eef3ccbd46ff8269b519f4a4f4df/c.html)
-> <font color="comment">新规实施后开展首次飞行检查。 · 新华网河南</font>
-> [河南紧盯具身智能赛道](http://henan.people.com.cn/n2/2026/1110/c351638-41746152.html)
-> <font color="comment">河南布局具身智能产业，寻求新增长点。 · 人民网河南</font>
+> [葵花籽油期货和期权在郑商所上市](https://www.news.cn/fortune/20261112/e14d5d442b2f41dda8a8482ef9cf69a5/c.html)
+> <font color="comment">相关品种正式挂牌，丰富油脂油料风险管理工具 · 新华网河南</font>
+> [2026豫排联赛朱婷任形象大使](https://www.chinanews.com.cn/ty/2026/11-11/10730431.shtml)
+> <font color="comment">奥运冠军助力河南排球联赛推广 · 中新网河南</font>
+> [河南六张网首部专项方案印发实施](https://www.ha.chinanews.com.cn/news/hnxw/2026/1112/71742.shtml)
+> <font color="comment">省级专项方案落地，推进相关网络建设 · 中新网河南</font>
+> [34名侨界专家受聘河南省侨联智囊团](https://www.chinanews.com.cn/hr/2026/11-11/10730489.shtml)
+> <font color="comment">侨界专家将为河南发展提供智力支持 · 中新网河南</font>
 
 **AI 科技**
-> [腾讯混元跻身最强开源模型](https://www.qbitai.com/2026/11/507843.html)
-> <font color="comment">实测Hy4搭配WorkBuddy展现多模态Agent能力。 · 量子位</font>
-> [Claude Fable 5.2登顶世界第一](https://www.ifanr.com/1688605)
-> <font color="comment">新版本发布即超越Opus 5.5位居榜首。 · 爱范儿</font>
-> [澳大利亚拟强制AI公司上报违规](https://www.ithome.com/1/024/843.htm)
-> <font color="comment">并考虑修订刑事法律以强化AI安全监管。 · IT之家</font>
-> [小米北大发布物联网模型白皮书](https://www.ithome.com/1/024/842.htm)
-> <font color="comment">向全行业开放11.6亿台AIoT设备技术经验。 · IT之家</font>
+> [豆包工作接入Kimi与DeepSeek](https://www.ifanr.com/1689176)
+> <font color="comment">多模型接入让用户可自由切换AI能力 · 爱范儿</font>
+> [Gemini 4 Carbon正式上线](https://www.ifanr.com/1688883)
+> <font color="comment">新模型开放使用但并非所有用户可用 · 爱范儿</font>
+> [MiniMax H3 Image实测并开源](https://www.ifanr.com/1688790)
+> <font color="comment">图像模型兼顾效果与审美并对外开源 · 爱范儿</font>
+> [AI伪科普污染下一代常识](https://www.ifanr.com/1688897)
+> <font color="comment">开源假鸟数据引发对AI内容质量的担忧 · 爱范儿</font>
 
 **今日观察**
-<font color="comment">国际局势与中美互动交织，AI模型竞争与监管同步升温。</font>
+<font color="comment">国际安全与防疫风险交织，国内聚焦孙中山诞辰纪念与对外交往，AI模型开放与内容治理同步推进。</font>

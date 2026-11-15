@@ -1,58 +1,58 @@
 # 早间新闻
-<font color="comment">11月14日 星期六</font>
+<font color="comment">11月15日 星期日</font>
 
 **国际**
-> [美航空局解除全美航班停飞令](https://www.chinanews.com.cn/gj/2026/11-14/10731954.shtml)
-> <font color="comment">因通信故障发布的地面停飞指令已撤销，航班运行逐步恢复。 · 中新网</font>
-> [日本未来五年防卫预算或增至60万亿日元](https://www.chinanews.com.cn/gj/2026/11-14/10731994.shtml)
-> <font color="comment">大幅扩军备武计划引发日本国内外批评与担忧。 · 中新网</font>
-> [爱尔兰查获多国领导人晚宴附近爆炸装置](https://www.chinanews.com.cn/gj/2026/11-14/10731932.shtml)
-> <font color="comment">装置在晚宴地点附近被发现，安全形势引发关注。 · 中新网</font>
-> [韩国连续三年单独办佐渡金山悼念仪式](https://www.chinanews.com.cn/gj/2026/11-14/10731894.shtml)
-> <font color="comment">韩方未与日方共同举办，劳工受害者纪念安排引关注。 · 中新网</font>
-> [欧洲五国及欧盟将参与下轮乌谈判](https://www.chinanews.com.cn/gj/2026/11-14/10731873.shtml)
-> <font color="comment">科斯塔透露相关方将参与下一轮乌克兰问题谈判。 · 中新网</font>
-> [投资中国比荷卢企业圆桌会在布鲁塞尔举行](https://www.chinanews.com.cn/gj/2026/11-13/10731866.shtml)
-> <font color="comment">活动面向比荷卢企业，推动对华投资合作对接。 · 中新网</font>
+> [伊朗通报4艘油轮触雷起火](https://www.chinanews.com.cn/gj/2026/11-14/10732056.shtml)
+> <font color="comment">联合国同期通报已发生134起商船袭击事件，海峡航运风险升高。 · 中新网</font>
+> [美军称已护航超17亿桶原油过霍尔木兹](https://www.chinanews.com.cn/gj/2026/11-15/10732309.shtml)
+> <font color="comment">美方公布护航规模，凸显这一能源通道的持续紧张态势。 · 中新网</font>
+> [以军宣布打死哈马斯一高级军事指挥官](https://www.chinanews.com.cn/gj/2026/11-15/10732298.shtml)
+> <font color="comment">以方称行动针对哈马斯军事高层，地区局势仍处紧绷状态。 · 中新网</font>
+> [联合国警告也门塔伊兹省人道主义危机](https://www.chinanews.com.cn/gj/2026/11-14/10732148.shtml)
+> <font color="comment">当地民众面临物资短缺，联合国呼吁关注并加大援助力度。 · 中新网</font>
+> [全美停飞令解除但航空混乱持续](https://www.chinanews.com.cn/gj/2026/11-14/10732029.shtml)
+> <font color="comment">航班秩序尚未恢复，公众对美国航空系统的信任受到损害。 · 中新网</font>
+> [首位外籍航天员将进入中国空间站](https://www.chinanews.com.cn/gj/2026/11-14/10732034.shtml)
+> <font color="comment">该航天员来自巴基斯坦，此前已专门学习中文以配合任务。 · 中新网</font>
 
 **国内**
-> [首位外籍航天员将进中国空间站](https://www.chinanews.com.cn/gn/2026/11-14/10731952.shtml)
-> <font color="comment">该航天员曾在孔子学院学习中文，引发关注。 · 中新网</font>
-> [攻击-21与四川舰带来三方面改变](https://www.chinanews.com.cn/gn/2026/11-14/10731956.shtml)
-> <font color="comment">新型装备组合在侦察打击与协同运用上形成新能力。 · 中新网</font>
-> [10吨级电动商用飞机完成首次智能飞行](https://www.chinanews.com.cn/gn/2026/11-14/10731939.shtml)
-> <font color="comment">我国该型电动商用飞机完成首次有人驾驶智能飞行。 · 中新网</font>
-> [51个一类新药进入新版国家医保目录](https://www.chinanews.com.cn/gn/2026/11-14/10731912.shtml)
-> <font color="comment">新版医保药品目录一类新药数量再创新高。 · 中新网</font>
-> [深层页岩油钻井速度刷新纪录](https://www.chinanews.com.cn/gn/2026/11-14/10731910.shtml)
-> <font color="comment">钻井周期缩短至11.68天，创我国深层页岩油新纪录。 · 中新网</font>
-> [新疆库车发生5.0级地震](https://www.chinanews.com.cn/gn/2026/11-14/10731904.shtml)
-> <font color="comment">水利部迅即启动水利抗震救灾调度指挥机制。 · 中新网</font>
+> [12位APEC经济体领导人将出席工商峰会](https://www.chinanews.com.cn/gn/2026/11-15/10732254.shtml)
+> <font color="comment">深圳APEC会议周临近，工商界高层对话筹备进入最后阶段。 · 中新网</font>
+> [李强会见泰国国王哇集拉隆功](https://www.chinanews.com.cn/gn/2026/11-15/10732251.shtml)
+> <font color="comment">双方就双边关系与务实合作交换意见，会见在京举行。 · 中新网</font>
+> [古特雷斯肯定中国可再生能源努力](https://www.chinanews.com.cn/gn/2026/11-15/10732319.shtml)
+> <font color="comment">联合国秘书长在专访中评价中国在绿色能源领域的投入。 · 中新网</font>
+> [APEC工商领导人峰会筹备已就绪](https://www.chinanews.com.cn/gn/2026/11-15/10732323.shtml)
+> <font color="comment">峰会设置多个环节，各项会务安排已完成最后准备。 · 中新网</font>
+> [小行星361707号命名为中国药科大学星](https://www.chinanews.com.cn/gn/2026/11-15/10732297.shtml)
+> <font color="comment">国际永久编号小行星以高校命名，体现对其贡献的认可。 · 中新网</font>
+> [深化经贸往来做大亚太合作蛋糕](https://www.chinanews.com.cn/gn/2026/11-15/10732271.shtml)
+> <font color="comment">评论聚焦深圳APEC会议，强调以务实合作扩大共同利益。 · 中新网</font>
 
 <!-- message-break -->
 
 # 本地 · 科技
-<font color="comment">11月14日 星期六</font>
+<font color="comment">11月15日 星期日</font>
 
 **河南 · 洛阳**
+> [王陆进会见中东欧国家高级别官员代表团](http://henan.people.com.cn/n2/2026/1115/c351638-41751262.html)
+> <font color="comment">河南省代省长与来访代表团就交流合作进行会谈。 · 人民网河南</font>
+> [王陆进到漯河新乡调研安全生产等工作](http://henan.people.com.cn/n2/2026/1114/c351638-41750717.html)
+> <font color="comment">代省长实地检查安全生产等情况，部署相关工作。 · 人民网河南</font>
+> [十五五河南省水网建设绘出路线图](http://henan.people.com.cn/n2/2026/1115/c351638-41751269.html)
+> <font color="comment">河南明确未来五年水网建设的重点任务与推进路径。 · 人民网河南</font>
 > [河南省女子排球城市联赛在郑州开幕](https://www.chinanews.com.cn/tp/2026/11-14/10731890.shtml)
-> <font color="comment">2026年豫排联赛启幕，首战郑州队获胜。 · 中新网河南</font>
-> [王陆进到漯河新乡调研安全生产](http://henan.people.com.cn/n2/2026/1114/c351638-41750717.html)
-> <font color="comment">调研聚焦安全生产等工作，推动相关责任落实。 · 人民网河南</font>
-> [河南启动2026年食品安全宣传周](http://www.ha.news.cn/20261114/9155f71e3e274b878c6648260e0903fe/c.html)
-> <font color="comment">全省食品安全宣传周活动正式启动，强化社会共治。 · 新华网河南</font>
-> [河南9条举措助豫麦愈好](https://www.chinanews.com.cn/cj/2026/11-13/10731432.shtml)
-> <font color="comment">围绕小麦生产推出9条举措，保障豫麦稳产提质。 · 中新网河南</font>
+> <font color="comment">2026年豫排联赛启幕，各城市队伍展开角逐。 · 中新网河南</font>
 
 **AI 科技**
-> [黄仁勋辞职英伟达33年首换帅](https://www.qbitai.com/2026/11/509995.html)
-> <font color="comment">英伟达首次更换掌门人，公司市值蒸发超3万亿。 · 量子位</font>
-> [路透社称英伟达董事会启动独立调查](https://www.ithome.com/1/027/123.htm)
-> <font color="comment">黄仁勋被指就婚外情误导高层，董事会已介入调查。 · IT之家</font>
-> [李飞飞世界模型正式开放](https://www.ifanr.com/1689379)
-> <font color="comment">用户可用一句话生成场景，世界模型能力对外开放。 · 爱范儿</font>
-> [Gemini 4新模型发布并人人可用](https://www.ifanr.com/1689267)
-> <font color="comment">谷歌新模型面向所有用户开放，能力再度升级。 · 爱范儿</font>
+> [DeepSeek开放全家桶API](https://www.qbitai.com/2026/11/510003.html)
+> <font color="comment">该公司集中开放系列模型接口，供开发者调用。 · 量子位</font>
+> [英伟达员工集体请愿让黄仁勋回归](https://www.qbitai.com/2026/11/510297.html)
+> <font color="comment">员工发起请愿，围绕公司管理层安排表达诉求。 · 量子位</font>
+> [中科曙光称高速互连是算力集群关键](https://www.ithome.com/1/027/320.htm)
+> <font color="comment">企业高管指出互连技术决定算力集群规模扩展的上限。 · IT之家</font>
+> [苹果HomeView首批评测出炉](https://www.ithome.com/1/027/294.htm)
+> <font color="comment">评测反映Siri智能表现不稳定，隐私问题也引发担忧。 · IT之家</font>
 
 **今日观察**
-<font color="comment">美空管故障致全美停飞后解除，英伟达换帅风波持续发酵。</font>
+<font color="comment">霍尔木兹海峡风险与APEC深圳会议周并行，AI模型开放与算力互连成科技焦点。</font>

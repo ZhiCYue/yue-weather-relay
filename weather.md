@@ -1,14 +1,14 @@
 # 天气早报
-<font color="comment">11月17日 星期二　北京 · 合肥 · 洛阳</font>
+<font color="comment">11月18日 星期三　北京 · 合肥 · 洛阳</font>
 
-> **北京**　小雨　<font color="info">3° ~ 8°</font>
-> 西北风 3级　空气 <font color="warning">中度污染 183</font>
+> **北京**　阴　<font color="info">0° ~ 6°</font>
+> 西北风 3级　空气 良 93
 
-> **合肥**　小雨　<font color="info">11° ~ 16°</font>
-> 东北风 3级　空气 良 67
+> **合肥**　小雨　<font color="info">5° ~ 13°</font>
+> 西北风 4级　空气 优 46
 
-> **洛阳**　小雨　<font color="info">8° ~ 11°</font>
-> 西风 3级　空气 良 51
+> **洛阳**　多云　<font color="info">5° ~ 10°</font>
+> 西风 4级　空气 优 42
 
-**今日提示**　早间三城均有小雨，洛阳降水概率100%需备伞；北京3~8°C偏冷且有中度污染，注意保暖防护；合肥11~16°C较温和。
+**今日提示**　合肥早间有小雨且风偏大，出行请带伞并注意防风；北京阴冷、洛阳多云，三城早晚都凉，注意保暖。
 <font color="comment">数据来源 Open-Meteo · 空气质量按国标 HJ 633 估算</font>

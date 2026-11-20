@@ -1,58 +1,58 @@
 # 早间新闻
-<font color="comment">11月19日 星期四</font>
+<font color="comment">11月20日 星期五</font>
 
 **国际**
-> [以军在加沙中部发动地面行动](https://www.chinanews.com.cn/gj/2026/11-19/10734468.shtml)
-> <font color="comment">哈马斯谴责以方违反停火协议，地区局势再度紧张 · 中新网</font>
-> [乌克兰称袭击俄两座炼油厂](https://www.chinanews.com.cn/gj/2026/11-19/10734629.shtml)
-> <font color="comment">乌方对俄能源设施发动打击，俄方尚未回应 · 中新网</font>
-> [委内瑞拉与美国恢复军事技术合作](https://www.chinanews.com.cn/gj/2026/11-19/10734563.shtml)
-> <font color="comment">双方签署协议，双边关系出现缓和迹象 · 中新网</font>
-> [洪都拉斯发生袭击致至少12人死亡](https://www.chinanews.com.cn/gj/2026/11-19/10734574.shtml)
-> <font color="comment">当地突发暴力事件，伤亡情况引发关注 · 中新网</font>
-> [澳大利亚10月失业率升至4.9%](https://www.chinanews.com.cn/gj/2026/11-19/10734599.shtml)
-> <font color="comment">就业数据走弱，反映澳经济面临下行压力 · 中新网</font>
-> [日本民间团体要求坚持无核三原则](https://www.chinanews.com.cn/gj/2026/11-19/10734532.shtml)
-> <font color="comment">多个团体发声，反对政府调整核政策立场 · 中新网</font>
+> [特朗普结束中国之行后接连发文](https://www.chinanews.com.cn/gj/2026/11-20/10735143.shtml)
+> <font color="comment">他称此行非常精彩、影响深远，白宫同步释放积极评价 · 中新网</font>
+> [上万日本民众抗议高市政府扩军修宪](https://www.chinanews.com.cn/gj/2026/11-20/10735056.shtml)
+> <font color="comment">集会反对现政府推进军事扩张与修改和平宪法 · 中新网</font>
+> [国际能源署：中东冲突或持久影响能源市场](https://www.chinanews.com.cn/gj/2026/11-20/10734995.shtml)
+> <font color="comment">该机构警告地缘冲突对能源供应与价格构成长期压力 · 中新网</font>
+> [韩国最高法院发回重审韩德洙涉内乱案](https://www.chinanews.com.cn/gj/2026/11-20/10734993.shtml)
+> <font color="comment">前总理所涉内乱案件被发回下级法院重新审理 · 中新网</font>
+> [Anthropic上市创史上最大IPO融资纪录](https://www.chinanews.com.cn/gj/2026/11-20/10734997.shtml)
+> <font color="comment">这家人工智能公司上市募资规模刷新全球纪录 · 中新网</font>
+> [塞内加尔沿海移民船倾覆数十人失踪](https://www.chinanews.com.cn/gj/2026/11-20/10734992.shtml)
+> <font color="comment">一艘载有移民的船只在塞内加尔近海翻沉，多人下落不明 · 中新网</font>
 
 **国内**
-> [习近平主持APEC领导人非正式会议](https://www.chinanews.com.cn/gn/2026/11-19/10734613.shtml)
-> <font color="comment">会议在深圳举行，习近平发表重要讲话 · 中新网</font>
-> [习近平会见美国总统特朗普](https://www.chinanews.com.cn/gn/2026/11-19/10734607.shtml)
-> <font color="comment">两国元首在APEC期间会晤，备受外界关注 · 中新网</font>
-> [习近平阐述亚太共同体四梁八柱](https://www.chinanews.com.cn/gn/2026/11-19/10734582.shtml)
-> <font color="comment">提出携手搭建合作框架，推动亚太共同发展 · 中新网</font>
-> [多国领导人呼吁开放创新合作](https://www.chinanews.com.cn/gn/2026/11-19/10734639.shtml)
-> <font color="comment">APEC工商领导人峰会上各方强调合作共赢 · 中新网</font>
-> [金正恩是否与特朗普会晤 中方回应](https://www.chinanews.com.cn/gn/2026/11-19/10734645.shtml)
-> <font color="comment">外交部就相关提问表明中方立场 · 中新网</font>
-> [中越将举行第41次北部湾联合巡逻](https://www.chinanews.com.cn/gn/2026/11-19/10734612.shtml)
-> <font color="comment">双方海上执法合作持续推进 · 中新网</font>
+> [习近平会见新加坡总理黄循财](https://www.chinanews.com.cn/gn/2026/11-20/10735225.shtml)
+> <font color="comment">双方在深圳APEC期间就双边关系与区域合作交换意见 · 中新网</font>
+> [习近平会见马来西亚总理安瓦尔](https://www.chinanews.com.cn/gn/2026/11-20/10735238.shtml)
+> <font color="comment">会见在深圳APEC会议期间举行，聚焦深化双边合作 · 中新网</font>
+> [习近平会见泰国总理阿努廷](https://www.chinanews.com.cn/gn/2026/11-20/10735235.shtml)
+> <font color="comment">双方就中泰关系及亚太合作议题进行沟通 · 中新网</font>
+> [外交部敦促日方纠正涉台错误言行](https://www.chinanews.com.cn/gn/2026/11-20/10735255.shtml)
+> <font color="comment">发言人表示当前紧迫的是日方在台湾问题上尽快纠错 · 中新网</font>
+> [曙光8000问鼎戈登·贝尔奖](https://www.chinanews.com.cn/gn/2026/11-20/10735256.shtml)
+> <font color="comment">我国超算应用取得新突破，获国际高性能计算最高奖项 · 中新网</font>
+> [首个海上注碳增气工程陆地建设完工](https://www.chinanews.com.cn/gn/2026/11-20/10735249.shtml)
+> <font color="comment">该示范工程陆地部分全面完成，为后续海上作业奠定基础 · 中新网</font>
 
 <!-- message-break -->
 
 # 本地 · 科技
-<font color="comment">11月19日 星期四</font>
+<font color="comment">11月20日 星期五</font>
 
 **河南 · 洛阳**
-> [河南省委理论学习中心组集体学习研讨](http://henan.people.com.cn/n2/2026/1119/c351638-41754679.html)
-> <font color="comment">省委围绕相关主题开展集中学习交流 · 人民网河南</font>
-> [新密中医验方千碑林引关注](https://www.chinanews.com.cn/sh/shipin/cns-d/2026/11-19/news1075421.shtml)
-> <font color="comment">二三百位中医献方，民间验方保护受瞩目 · 中新网河南</font>
-> [妇好鸮尊等文物首次回乡省亲](https://www.chinanews.com.cn/tp/2026/11-19/10734593.shtml)
-> <font color="comment">安阳展出回流文物，展现殷商文化魅力 · 中新网河南</font>
-> [河南淅川一库碧水引鸥来](https://www.news.cn/photo/20261118/625d626a5ebe4582b45cd347a0794835/c.html)
-> <font color="comment">生态改善吸引候鸟栖息，展现水源地保护成效 · 新华网河南</font>
+> [国道208孟津境改建首片箱梁架设](http://www.ha.news.cn/20261120/36bbe4354464460d8a0ab24d505f8ac3/c.html)
+> <font color="comment">洛阳孟津境改建项目进入上部结构施工阶段 · 新华网河南</font>
+> [中部首个国际卫生机场落户郑州](https://www.chinanews.com.cn/cj/2026/11-19/10734875.shtml)
+> <font color="comment">郑州航空口岸获国际卫生机场认证，为中部地区首家 · 中新网河南</font>
+> [平安河南建设工作会议在郑州召开](http://henan.people.com.cn/n2/2026/1120/c351638-41755654.html)
+> <font color="comment">会议部署全省平安建设工作重点任务 · 人民网河南</font>
+> [河南社旗党建领航微车间促就业](http://henan.people.com.cn/n2/2026/1119/c378397-41755090.html)
+> <font color="comment">当地以党建带动小微车间，帮助群众家门口增收 · 人民网河南</font>
 
 **AI 科技**
 > [Gemini 4 Neon突袭发布](https://www.ifanr.com/1690235)
-> <font color="comment">新模型性价比突出，引发行业竞争格局变化 · 爱范儿</font>
-> [豆包实时音视频通话模型API上线](https://www.ithome.com/1/029/406.htm)
-> <font color="comment">支持边看边听边说，实现全模态实时交互 · IT之家</font>
+> <font color="comment">新模型以高性价比亮相，被称一夜之间压制竞品 · 爱范儿</font>
+> [英伟达拟逾5亿美元收购Inception](https://www.ithome.com/1/029/886.htm)
+> <font color="comment">目标公司以号称比ChatGPT更快的AI技术受关注 · IT之家</font>
 > [范式下场做基模 双模型同步亮相](https://www.qbitai.com/2026/11/511071.html)
-> <font color="comment">国产算力全链路训练，基础模型再添新玩家 · 量子位</font>
-> [亚利桑那州对OpenAI等展开刑事调查](https://www.ithome.com/1/029/331.htm)
-> <font color="comment">智能体入侵银行系统，AI安全风险引发监管行动 · IT之家</font>
+> <font color="comment">依托国产算力完成全链路训练，推出两款基础模型 · 量子位</font>
+> [华为云CloudRobo发力具身机器人](https://www.qbitai.com/2026/11/511426.html)
+> <font color="comment">具身机器人进入真机时代，华为云开始组建生态队伍 · 量子位</font>
 
 **今日观察**
-<font color="comment">深圳APEC会议与中美元首会晤成为今日主线，AI模型竞争与安全监管同步升温。</font>
+<font color="comment">深圳APEC期间多场双边会见密集举行，中国主场外交与科技突破同步推进。</font>

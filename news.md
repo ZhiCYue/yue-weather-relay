@@ -1,58 +1,56 @@
 # 早间新闻
-<font color="comment">11月20日 星期五</font>
+<font color="comment">11月21日 星期六</font>
 
 **国际**
-> [特朗普结束中国之行后接连发文](https://www.chinanews.com.cn/gj/2026/11-20/10735143.shtml)
-> <font color="comment">他称此行非常精彩、影响深远，白宫同步释放积极评价 · 中新网</font>
-> [上万日本民众抗议高市政府扩军修宪](https://www.chinanews.com.cn/gj/2026/11-20/10735056.shtml)
-> <font color="comment">集会反对现政府推进军事扩张与修改和平宪法 · 中新网</font>
-> [国际能源署：中东冲突或持久影响能源市场](https://www.chinanews.com.cn/gj/2026/11-20/10734995.shtml)
-> <font color="comment">该机构警告地缘冲突对能源供应与价格构成长期压力 · 中新网</font>
-> [韩国最高法院发回重审韩德洙涉内乱案](https://www.chinanews.com.cn/gj/2026/11-20/10734993.shtml)
-> <font color="comment">前总理所涉内乱案件被发回下级法院重新审理 · 中新网</font>
-> [Anthropic上市创史上最大IPO融资纪录](https://www.chinanews.com.cn/gj/2026/11-20/10734997.shtml)
-> <font color="comment">这家人工智能公司上市募资规模刷新全球纪录 · 中新网</font>
-> [塞内加尔沿海移民船倾覆数十人失踪](https://www.chinanews.com.cn/gj/2026/11-20/10734992.shtml)
-> <font color="comment">一艘载有移民的船只在塞内加尔近海翻沉，多人下落不明 · 中新网</font>
+> [沙特称拦截胡塞导弹 也门称遭袭致41死](https://www.chinanews.com.cn/gj/2026/11-21/10735663.shtml)
+> <font color="comment">双方各执一词，地区紧张局势再度升级 · 中新网</font>
+> [丹麦驱逐俄罗斯武官 俄称将适当回应](https://www.chinanews.com.cn/gj/2026/11-21/10735674.shtml)
+> <font color="comment">俄方表示将采取对等措施，双边关系趋紧 · 中新网</font>
+> [特朗普重申伊朗永远不会拥有核武器](https://www.chinanews.com.cn/gj/2026/11-21/10735660.shtml)
+> <font color="comment">称无法接受伊朗想达成的协议，伊核谈判承压 · 中新网</font>
+> [日媒称日本研究引进核潜艇](https://www.chinanews.com.cn/gj/2026/11-21/10735659.shtml)
+> <font color="comment">并探讨为无核三原则设例外，引发国内争议 · 中新网</font>
+> [特朗普称中俄美元首会晤具历史意义](https://www.chinanews.com.cn/gj/2026/11-21/10735613.shtml)
+> <font color="comment">评价此次会晤史无前例、意义重大 · 中新网</font>
+> [秘鲁发生6.7级地震 首都有震感](https://www.chinanews.com.cn/gj/2026/11-21/10735617.shtml)
+> <font color="comment">震感波及首都，暂无更多灾情细节披露 · 中新网</font>
 
 **国内**
-> [习近平会见新加坡总理黄循财](https://www.chinanews.com.cn/gn/2026/11-20/10735225.shtml)
-> <font color="comment">双方在深圳APEC期间就双边关系与区域合作交换意见 · 中新网</font>
-> [习近平会见马来西亚总理安瓦尔](https://www.chinanews.com.cn/gn/2026/11-20/10735238.shtml)
-> <font color="comment">会见在深圳APEC会议期间举行，聚焦深化双边合作 · 中新网</font>
-> [习近平会见泰国总理阿努廷](https://www.chinanews.com.cn/gn/2026/11-20/10735235.shtml)
-> <font color="comment">双方就中泰关系及亚太合作议题进行沟通 · 中新网</font>
-> [外交部敦促日方纠正涉台错误言行](https://www.chinanews.com.cn/gn/2026/11-20/10735255.shtml)
-> <font color="comment">发言人表示当前紧迫的是日方在台湾问题上尽快纠错 · 中新网</font>
-> [曙光8000问鼎戈登·贝尔奖](https://www.chinanews.com.cn/gn/2026/11-20/10735256.shtml)
-> <font color="comment">我国超算应用取得新突破，获国际高性能计算最高奖项 · 中新网</font>
-> [首个海上注碳增气工程陆地建设完工](https://www.chinanews.com.cn/gn/2026/11-20/10735249.shtml)
-> <font color="comment">该示范工程陆地部分全面完成，为后续海上作业奠定基础 · 中新网</font>
+> [深圳展望为何成为APEC新里程碑](https://www.chinanews.com.cn/gn/2026/11-21/10735734.shtml)
+> <font color="comment">报道解读此次会议在亚太合作中的标志性意义 · 中新网</font>
+> [最高检发布性侵未成年人犯罪抗诉案例](https://www.chinanews.com.cn/gn/2026/11-21/10735720.shtml)
+> <font color="comment">以指导性案例明确此类案件抗诉标准 · 中新网</font>
+> [中国石油甲烷排放强度较2019年降50%](https://www.chinanews.com.cn/gn/2026/11-21/10735713.shtml)
+> <font color="comment">如期实现既定控排目标，披露治理成效 · 中新网</font>
+> [中国农业甲烷治理取得积极进展](https://www.chinanews.com.cn/gn/2026/11-21/10735710.shtml)
+> <font color="comment">相关举措已纳入国家行动计划推进 · 中新网</font>
+> [越南与中国西南发展战略对接论坛举行](https://www.chinanews.com.cn/gn/2026/11-21/10735690.shtml)
+> <font color="comment">论坛在昆明举办，聚焦区域合作对接 · 中新网</font>
 
 <!-- message-break -->
 
 # 本地 · 科技
-<font color="comment">11月20日 星期五</font>
+<font color="comment">11月21日 星期六</font>
 
 **河南 · 洛阳**
-> [国道208孟津境改建首片箱梁架设](http://www.ha.news.cn/20261120/36bbe4354464460d8a0ab24d505f8ac3/c.html)
-> <font color="comment">洛阳孟津境改建项目进入上部结构施工阶段 · 新华网河南</font>
-> [中部首个国际卫生机场落户郑州](https://www.chinanews.com.cn/cj/2026/11-19/10734875.shtml)
-> <font color="comment">郑州航空口岸获国际卫生机场认证，为中部地区首家 · 中新网河南</font>
 > [平安河南建设工作会议在郑州召开](http://henan.people.com.cn/n2/2026/1120/c351638-41755654.html)
-> <font color="comment">会议部署全省平安建设工作重点任务 · 人民网河南</font>
-> [河南社旗党建领航微车间促就业](http://henan.people.com.cn/n2/2026/1119/c378397-41755090.html)
-> <font color="comment">当地以党建带动小微车间，帮助群众家门口增收 · 人民网河南</font>
+> <font color="comment">会议部署全省平安建设重点工作任务 · 人民网河南</font>
+> [国道208孟津境改建首片箱梁架设](http://www.ha.news.cn/20261120/36bbe4354464460d8a0ab24d505f8ac3/c.html)
+> <font color="comment">项目进入上部结构施工阶段，推进提速 · 新华网河南</font>
+> [清明上河园智能指路牌投入使用](http://www.ha.news.cn/20261121/3e8bc11618ad4a0cb36519441bad5b94/c.html)
+> <font color="comment">游客可触屏查询，提升景区导览体验 · 新华网河南</font>
+> [郑州千年银杏树迎来最佳观赏期](https://www.chinanews.com.cn/tp/2026/11-20/10735396.shtml)
+> <font color="comment">古树进入观赏高峰，吸引市民前往打卡 · 中新网河南</font>
 
 **AI 科技**
-> [Gemini 4 Neon突袭发布](https://www.ifanr.com/1690235)
-> <font color="comment">新模型以高性价比亮相，被称一夜之间压制竞品 · 爱范儿</font>
-> [英伟达拟逾5亿美元收购Inception](https://www.ithome.com/1/029/886.htm)
-> <font color="comment">目标公司以号称比ChatGPT更快的AI技术受关注 · IT之家</font>
-> [范式下场做基模 双模型同步亮相](https://www.qbitai.com/2026/11/511071.html)
-> <font color="comment">依托国产算力完成全链路训练，推出两款基础模型 · 量子位</font>
-> [华为云CloudRobo发力具身机器人](https://www.qbitai.com/2026/11/511426.html)
-> <font color="comment">具身机器人进入真机时代，华为云开始组建生态队伍 · 量子位</font>
+> [华为云昇腾算力训出具身世界模型](https://www.qbitai.com/2026/11/511610.html)
+> <font color="comment">模型登双榜SOTA，整套底座对外开放 · 量子位</font>
+> [智元与蓝思科技达成战略合作](https://www.ithome.com/1/030/364.htm)
+> <font color="comment">精灵G2机器人将部署于手机测试产线 · IT之家</font>
+> [腾讯混元称Hy4仍有很大改进空间](https://www.ithome.com/1/030/338.htm)
+> <font color="comment">团队计划训练更大规模模型持续迭代 · IT之家</font>
+> [理想自研芯片登上台积电讲台](https://www.ifanr.com/1690596)
+> <font color="comment">强调驾驶场景中让用户无需感知芯片存在 · 爱范儿</font>
 
 **今日观察**
-<font color="comment">深圳APEC期间多场双边会见密集举行，中国主场外交与科技突破同步推进。</font>
+<font color="comment">国际局势多点紧张，国内聚焦未成年人保护与甲烷治理，科技领域具身智能与自研芯片加速落地。</font>

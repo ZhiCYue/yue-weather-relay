@@ -1,58 +1,58 @@
 # 早间新闻
-<font color="comment">11月23日 星期一</font>
+<font color="comment">11月24日 星期二</font>
 
 **国际**
-> [COP31闭幕共识难产](https://www.chinanews.com.cn/gj/2026/11-23/10736366.shtml)
-> <font color="comment">史上拖堂最久的一届气候大会闭幕，关键政治决定被推迟 · 中新网</font>
-> [古特雷斯对COP31表失望](https://www.chinanews.com.cn/gj/2026/11-23/10736224.shtml)
-> <font color="comment">联合国秘书长声明称大会未就政治决定达成一致令人失望 · 中新网</font>
-> [泽连斯基促美提供爱国者](https://www.chinanews.com.cn/gj/2026/11-23/10736321.shtml)
-> <font color="comment">乌军一周内袭击俄境内8处石油设施，乌方继续寻求防空援助 · 中新网</font>
-> [美伊僵持 以或单独动武](https://www.chinanews.com.cn/gj/2026/11-23/10736273.shtml)
-> <font color="comment">美伊谈判僵持冲突外溢，内塔尼亚胡被曝欲单独对伊朗动武 · 中新网</font>
-> [以色列组阁谈判未突破](https://www.chinanews.com.cn/gj/2026/11-23/10736389.shtml)
-> <font color="comment">总理人选仍存分歧，组阁谈判未取得实质性进展 · 中新网</font>
-> [日本各界要求坚守无核三原则](https://www.chinanews.com.cn/gj/2026/11-23/10736377.shtml)
-> <font color="comment">日本多方发声，要求政府坚持无核三原则不动摇 · 中新网</font>
+> [伊朗法院裁定美国须赔偿2900亿美元](https://www.chinanews.com.cn/gj/2026/11-24/10737043.shtml)
+> <font color="comment">伊媒报道称该裁定涉及美方相关行为造成的损失 · 中新网</font>
+> [阿联酋哈伊马角酋长国车祸致11死](https://www.chinanews.com.cn/gj/2026/11-24/10737017.shtml)
+> <font color="comment">当地发生交通事故，造成多人死亡，具体原因待查 · 中新网</font>
+> [也门民用车辆遇袭致数十人死伤](https://www.chinanews.com.cn/gj/2026/11-24/10736944.shtml)
+> <font color="comment">袭击造成平民伤亡，事件责任方尚未明确 · 中新网</font>
+> [两名中国公民在津巴布韦遭抢劫致伤](https://www.chinanews.com.cn/gj/2026/11-24/10736899.shtml)
+> <font color="comment">当地已抓获8名涉案嫌疑人，案件正在处理 · 中新网</font>
+> [日本在野党要求文部科学大臣辞职](https://www.chinanews.com.cn/gj/2026/11-24/10737038.shtml)
+> <font color="comment">在野党决定问责，围绕相关争议施压大臣去职 · 中新网</font>
+> [老挝正式退出联合国最不发达国家行列](https://www.chinanews.com.cn/gj/2026/11-24/10737029.shtml)
+> <font color="comment">老挝发展水平达标，正式脱离最不发达国家类别 · 中新网</font>
 
 **国内**
-> [习近平孙中山讲话单行本出版](https://www.chinanews.com.cn/gn/2026/11-23/10736453.shtml)
-> <font color="comment">纪念孙中山先生诞辰160周年大会讲话以单行本形式出版 · 中新网</font>
-> [外交部回应中俄美元首会晤](https://www.chinanews.com.cn/gn/2026/11-23/10736465.shtml)
-> <font color="comment">就中俄美元首会晤是否讨论乌克兰危机，外交部作出回应 · 中新网</font>
-> [荷兰外交大臣将访华](https://www.chinanews.com.cn/gn/2026/11-23/10736467.shtml)
-> <font color="comment">中方介绍贝伦德森访华安排与此访期待 · 中新网</font>
-> [科技部原司长刘敏被查](https://www.chinanews.com.cn/gn/2026/11-23/10736436.shtml)
-> <font color="comment">科技部原重大专项司司长刘敏接受审查调查 · 中新网</font>
-> [最高法与侨联发布涉侨案例](https://www.chinanews.com.cn/gn/2026/11-23/10736367.shtml)
-> <font color="comment">发布侨益司法保护典型案例，明确相关司法保护标准 · 中新网</font>
-> [中国团队提出量子电网仿真新法](https://www.chinanews.com.cn/gn/2026/11-23/10736407.shtml)
-> <font color="comment">科研团队提出量子电网仿真新方法，推进相关技术研究 · 中新网</font>
+> [神二十四乘组集体亮相 简历公布](https://www.chinanews.com.cn/gn/2026/11-24/10736946.shtml)
+> <font color="comment">三名航天员公开亮相，任务安排与个人经历同步披露 · 中新网</font>
+> [我国牵头推动生成式AI治理国际标准提案](https://www.chinanews.com.cn/gn/2026/11-24/10737068.shtml)
+> <font color="comment">该提案为全球首个生成式人工智能治理国际标准提案 · 中新网</font>
+> [吴胜华非法收受财物1.13亿余元被判无期](https://www.chinanews.com.cn/gn/2026/11-24/10737058.shtml)
+> <font color="comment">一审认定其受贿数额特别巨大，依法判处无期徒刑 · 中新网</font>
+> [中柬金龙—2026联合演习筹备稳步推进](https://www.chinanews.com.cn/gn/2026/11-24/10737008.shtml)
+> <font color="comment">双方正推进演习各项准备工作，具体安排陆续落实 · 中新网</font>
+> [青岛城阳区委原书记吕鹏被双开](https://www.chinanews.com.cn/gn/2026/11-24/10737033.shtml)
+> <font color="comment">官方通报其严重违纪违法，给予开除党籍公职处分 · 中新网</font>
+> [广东力争2030年高价值发明专利达58万件](https://www.chinanews.com.cn/gn/2026/11-24/10737063.shtml)
+> <font color="comment">广东设定知识产权目标，推动高价值专利数量提升 · 中新网</font>
 
 <!-- message-break -->
 
 # 本地 · 科技
-<font color="comment">11月23日 星期一</font>
+<font color="comment">11月24日 星期二</font>
 
 **河南 · 洛阳**
-> [龙门石窟借数字技术唤醒](http://www.ha.news.cn/20261123/8ae65980039a4f4590f0ac63a4dfbfca/c.html)
-> <font color="comment">龙门石窟研究院党委书记余杰谈以数字技术保护利用石窟 · 新华网河南</font>
-> [国家考古遗址公园邮票首发](https://www.chinanews.com.cn/cul/2026/11-22/10736108.shtml)
-> <font color="comment">特种邮票首发仪式在郑州举行，聚焦国家考古遗址公园 · 中新网河南</font>
-> [河南民营经济胖东来现象观察](http://www.ha.news.cn/20261123/50a56747dc8b47cc8036ecac8c03781f/c.html)
-> <font color="comment">经济参考报聚焦河南民营经济中的胖东来现象 · 新华网河南</font>
-> [小雪时节探访登封观星台](https://www.chinanews.com.cn/tp/2026/11-23/10736402.shtml)
-> <font color="comment">小雪时节，记者探访河南登封观星台这一古代天文遗址 · 中新网河南</font>
+> [共青团河南省第十六次代表大会在郑开幕](http://www.ha.news.cn/20261124/aed5a5bd5768474b9f3af4b25c3c2c14/c.html)
+> <font color="comment">大会在郑州召开，部署全省共青团工作重点任务 · 新华网河南</font>
+> [河南8个开发区入选首批国家高标准数字园区](https://www.ha.chinanews.com.cn/news/hncj/2026/1124/71939.shtml)
+> <font color="comment">入选园区将推进数字化建设，提升产业承载能力 · 中新网河南</font>
+> [国家考古遗址公园特种邮票在郑州首发](http://henan.people.com.cn/n2/2026/1123/c351638-41758116.html)
+> <font color="comment">该系列邮票第二组在郑州首发，展现考古遗址风貌 · 人民网河南</font>
+> [两千余只红嘴鸥飞抵三门峡](http://www.ha.news.cn/20261124/c1fd84a57f61405db1afd36b1158e109/c.html)
+> <font color="comment">大批红嘴鸥抵达黄河湿地越冬，形成冬日景观 · 新华网河南</font>
 
 **AI 科技**
-> [加州总检察长起诉OpenAI](https://www.ithome.com/1/030/921.htm)
-> <font color="comment">指控其忽视安全风险，成为针对AI企业的最新监管诉讼 · IT之家</font>
-> [蚂蚁阿福同款大模型开源](https://www.qbitai.com/2026/11/511998.html)
-> <font color="comment">该医疗大模型开源后，全球医生用一台电脑即可使用专业能力 · 量子位</font>
-> [Claude黎曼猜想证明获认证](https://www.ifanr.com/1690820)
-> <font color="comment">Claude的黎曼猜想证明获Lean官方认证，马斯克称成就惊人 · 爱范儿</font>
-> [RoboChallenge Zero首期评测](https://www.qbitai.com/2026/11/511978.html)
-> <font color="comment">发布首期评测，检验大模型接入真实机器人后的表现 · 量子位</font>
+> [腾讯发布混元翻译模型HyMT3](https://www.ithome.com/1/031/681.htm)
+> <font color="comment">新模型在准确性、完整性和指令遵循方面均有提升 · IT之家</font>
+> [蚂蚁OceanBase发布湖库一体AI数据平台](https://www.qbitai.com/2026/11/512330.html)
+> <font color="comment">OceanLake核心引擎向全球开源，服务AI数据场景 · 量子位</font>
+> [AI热潮引爆封装基板需求 韩企扩产](https://www.ithome.com/1/031/715.htm)
+> <font color="comment">韩国7家中型厂商合计投资2.8万亿韩元扩大产能 · IT之家</font>
+> [业界首提端侧超节点 端侧AI效率增270%](https://www.qbitai.com/2026/11/512362.html)
+> <font color="comment">该方案让端侧设备协同计算，无需更换芯片或模型 · 量子位</font>
 
 **今日观察**
-<font color="comment">气候大会共识难产与多地冲突僵持交织，国内聚焦外交与反腐，AI监管与安全成科技焦点。</font>
+<font color="comment">国际多起伤亡与司法事件受关注，国内航天与AI治理进展突出。</font>

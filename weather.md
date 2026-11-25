@@ -1,14 +1,14 @@
 # 天气早报
-<font color="comment">11月24日 星期二　北京 · 合肥 · 洛阳</font>
+<font color="comment">11月25日 星期三　北京 · 合肥 · 洛阳</font>
 
-> **北京**　多云　<font color="info">-2° ~ 5°</font>
-> 西风 2级　空气 轻度污染 104
+> **北京**　多云　<font color="info">-2° ~ 7°</font>
+> 东北风 2级　空气 <font color="warning">重度污染 243</font>
 
-> **合肥**　阴　<font color="info">6° ~ 14°</font>
-> 北风 3级　空气 轻度污染 109
+> **合肥**　阴　<font color="info">5° ~ 16°</font>
+> 南风 3级　空气 轻度污染 138
 
-> **洛阳**　阴　<font color="info">2° ~ 14°</font>
-> 西南风 3级　空气 优 46
+> **洛阳**　晴　<font color="info">1° ~ 17°</font>
+> 西南风 2级　空气 良 66
 
-**今日提示**　早间出行注意：北京合肥有轻度污染，敏感人群戴口罩；北京偏冷，最低-2°C，注意保暖；三城均无降水。
+**今日提示**　北京重度污染，出行需防护，合肥轻度污染，洛阳空气良；三城无降水，早晚偏凉注意保暖。
 <font color="comment">数据来源 Open-Meteo · 空气质量按国标 HJ 633 估算</font>

@@ -1,14 +1,14 @@
 # 天气早报
-<font color="comment">11月26日 星期四　北京 · 合肥 · 洛阳</font>
+<font color="comment">11月27日 星期五　北京 · 合肥 · 洛阳</font>
 
-> **北京**　阴　<font color="info">0° ~ 12°</font>
-> 西北风 2级　空气 <font color="warning">重度污染 255</font>
+> **北京**　晴　<font color="info">3° ~ 10°</font>
+> 西北风 4级　空气 良 72
 
-> **合肥**　阴　<font color="info">9° ~ 18°</font>
-> 南风 3级　空气 良 69
+> **合肥**　阴　<font color="info">8° ~ 18°</font>
+> 西风 3级　空气 良 71
 
-> **洛阳**　阴　<font color="info">7° ~ 20°</font>
-> 西风 4级　空气 良 53
+> **洛阳**　阴　<font color="info">5° ~ 15°</font>
+> 西风 3级　空气 良 75
 
-**今日提示**　北京重度污染，出行戴口罩；洛阳西风4级，注意防风；三城阴天无雨，早晚偏凉，适当添衣。
+**今日提示**　北京晴但西北风4级偏凉，早晚3°C注意保暖防风；合肥洛阳阴天无雨，气温适中正常穿衣即可。
 <font color="comment">数据来源 Open-Meteo · 空气质量按国标 HJ 633 估算</font>
